@@ -1,4 +1,4 @@
-//go:build !windows
+//go:build !windows && !wasip1
 
 package system // import "github.com/docker/docker/pkg/system"
 
