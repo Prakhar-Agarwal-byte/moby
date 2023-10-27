@@ -3,8 +3,8 @@ package datastore
 import (
 	"errors"
 
-	store "github.com/docker/docker/libnetwork/internal/kvstore"
-	"github.com/docker/docker/libnetwork/types"
+	store "github.com/Prakhar-Agarwal-byte/moby/libnetwork/internal/kvstore"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
 )
 
 // MockData exported

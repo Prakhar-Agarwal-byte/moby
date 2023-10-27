@@ -1,10 +1,10 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"context"
 
+	swarmtypes "github.com/Prakhar-Agarwal-byte/moby/api/types/swarm"
 	"github.com/containerd/log"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
 )
 
 // SetContainerConfigReferences sets the container config references needed

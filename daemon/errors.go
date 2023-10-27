@@ -1,11 +1,11 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"fmt"
 	"strings"
 	"syscall"
 
-	"github.com/docker/docker/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc/status"
 )

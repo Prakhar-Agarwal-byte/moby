@@ -8,12 +8,12 @@ import (
 	"sync"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/bitmap"
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/drivers/overlay/overlayutils"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/scope"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/bitmap"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/driverapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/drivers/overlay/overlayutils"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/netlabel"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/scope"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
 )
 
 const (

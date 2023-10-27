@@ -5,7 +5,7 @@ package bridge
 import (
 	"errors"
 
-	"github.com/docker/docker/libnetwork/iptables"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/iptables"
 )
 
 func (n *bridgeNetwork) setupFirewalld(config *networkConfiguration, i *bridgeInterface) error {

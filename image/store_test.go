@@ -1,11 +1,11 @@
-package image // import "github.com/docker/docker/image"
+package image // import "github.com/Prakhar-Agarwal-byte/moby/image"
 
 import (
 	"fmt"
 	"testing"
 
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/layer"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/layer"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

@@ -1,11 +1,11 @@
-package service // import "github.com/docker/docker/volume/service"
+package service // import "github.com/Prakhar-Agarwal-byte/moby/volume/service"
 
 import (
 	"context"
 	"sync"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/volume"
+	"github.com/Prakhar-Agarwal-byte/moby/volume"
 	bolt "go.etcd.io/bbolt"
 )
 

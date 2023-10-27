@@ -1,4 +1,4 @@
-package trap // import "github.com/docker/docker/cmd/dockerd/trap"
+package trap // import "github.com/Prakhar-Agarwal-byte/moby/cmd/dockerd/trap"
 
 import (
 	"context"

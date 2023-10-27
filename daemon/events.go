@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"context"
@@ -7,11 +7,11 @@ import (
 	"time"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/container"
-	daemonevents "github.com/docker/docker/daemon/events"
-	"github.com/docker/docker/libnetwork"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/events"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/filters"
+	"github.com/Prakhar-Agarwal-byte/moby/container"
+	daemonevents "github.com/Prakhar-Agarwal-byte/moby/daemon/events"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork"
 	gogotypes "github.com/gogo/protobuf/types"
 	swarmapi "github.com/moby/swarmkit/v2/api"
 )

@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/runconfig"
+	"github.com/Prakhar-Agarwal-byte/moby/integration-cli/cli"
+	"github.com/Prakhar-Agarwal-byte/moby/runconfig"
 	"gotest.tools/v3/assert"
 )
 

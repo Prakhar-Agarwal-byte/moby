@@ -3,8 +3,8 @@ package containerd
 import (
 	"context"
 
-	"github.com/docker/docker/api/types/events"
-	imagetypes "github.com/docker/docker/api/types/image"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/events"
+	imagetypes "github.com/Prakhar-Agarwal-byte/moby/api/types/image"
 )
 
 // LogImageEvent generates an event related to an image with only the default attributes.

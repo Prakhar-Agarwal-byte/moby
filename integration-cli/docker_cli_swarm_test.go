@@ -18,15 +18,15 @@ import (
 	"time"
 
 	"github.com/cloudflare/cfssl/helpers"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/daemon"
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/ipamapi"
-	remoteipam "github.com/docker/docker/libnetwork/ipams/remote/api"
-	"github.com/docker/docker/pkg/plugins"
-	"github.com/docker/docker/testutil"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/swarm"
+	"github.com/Prakhar-Agarwal-byte/moby/integration-cli/checker"
+	"github.com/Prakhar-Agarwal-byte/moby/integration-cli/cli"
+	"github.com/Prakhar-Agarwal-byte/moby/integration-cli/daemon"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/driverapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipamapi"
+	remoteipam "github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipams/remote/api"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/plugins"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil"
 	"github.com/moby/swarmkit/v2/ca/keyutils"
 	"github.com/vishvananda/netlink"
 	"gotest.tools/v3/assert"
@@ -546,7 +546,7 @@ func (s *DockerSwarmSuite) TestSwarmCreateServiceWithNoIngressNetwork(c *testing
 }
 
 // Test case for #24108, also the case from:
-// https://github.com/docker/docker/pull/24620#issuecomment-233715656
+// https://github.com/Prakhar-Agarwal-byte/moby/pull/24620#issuecomment-233715656
 func (s *DockerSwarmSuite) TestSwarmTaskListFilter(c *testing.T) {
 	ctx := testutil.GetContext(c)
 	d := s.AddDaemon(ctx, c, true, true)
@@ -1548,7 +1548,7 @@ func (s *DockerSwarmSuite) TestSwarmNetworkCreateIssue27866(c *testing.T) {
 	assert.NilError(c, err, "out: %v", out)
 }
 
-// Test case for https://github.com/docker/docker/pull/27938#issuecomment-265768303
+// Test case for https://github.com/Prakhar-Agarwal-byte/moby/pull/27938#issuecomment-265768303
 // This test creates two networks with the same name sequentially, with various drivers.
 // Since the operations in this test are done sequentially, the 2nd call should fail with
 // "network with name FOO already exists".

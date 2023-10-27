@@ -1,14 +1,14 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/Prakhar-Agarwal-byte/moby/integration/container"
 
 import (
 	"context"
 	"testing"
 
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/integration/internal/requirement"
-	"github.com/docker/docker/testutil"
-	"github.com/docker/docker/testutil/daemon"
+	"github.com/Prakhar-Agarwal-byte/moby/client"
+	"github.com/Prakhar-Agarwal-byte/moby/integration/internal/container"
+	"github.com/Prakhar-Agarwal-byte/moby/integration/internal/requirement"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil/daemon"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/skip"
 )

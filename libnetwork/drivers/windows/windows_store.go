@@ -9,11 +9,11 @@ import (
 	"net"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/datastore"
-	"github.com/docker/docker/libnetwork/discoverapi"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/scope"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/datastore"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/discoverapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/netlabel"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/scope"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
 )
 
 const (

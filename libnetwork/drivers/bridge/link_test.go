@@ -6,7 +6,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
 )
 
 func getPorts() []types.TransportPort {

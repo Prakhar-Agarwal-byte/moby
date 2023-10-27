@@ -1,10 +1,10 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"context"
 
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/config"
+	"github.com/Prakhar-Agarwal-byte/moby/container"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/config"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

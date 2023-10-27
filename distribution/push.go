@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/Prakhar-Agarwal-byte/moby/distribution"
 
 import (
 	"bufio"
@@ -9,8 +9,8 @@ import (
 
 	"github.com/containerd/log"
 	"github.com/distribution/reference"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/pkg/progress"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/events"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/progress"
 )
 
 const compressionBufSize = 32768

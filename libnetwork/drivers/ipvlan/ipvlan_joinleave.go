@@ -8,10 +8,10 @@ import (
 	"net"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/netutils"
-	"github.com/docker/docker/libnetwork/ns"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/driverapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/netutils"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ns"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
 )
 
 type staticRoute struct {

@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/testutil/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/testutil/daemon"
 
 import (
 	"bufio"
@@ -15,14 +15,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/api/types/system"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/pkg/tailfile"
-	"github.com/docker/docker/testutil/request"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/events"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/system"
+	"github.com/Prakhar-Agarwal-byte/moby/client"
+	"github.com/Prakhar-Agarwal-byte/moby/container"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/ioutils"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stringid"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/tailfile"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil/request"
 	"github.com/docker/go-connections/sockets"
 	"github.com/docker/go-connections/tlsconfig"
 	"github.com/pkg/errors"

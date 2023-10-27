@@ -16,20 +16,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/client"
-	dconfig "github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/cli/build"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/testutil"
-	"github.com/docker/docker/testutil/request"
-	"github.com/docker/docker/volume"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/mount"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/network"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/versions"
+	"github.com/Prakhar-Agarwal-byte/moby/client"
+	dconfig "github.com/Prakhar-Agarwal-byte/moby/daemon/config"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/integration-cli/cli"
+	"github.com/Prakhar-Agarwal-byte/moby/integration-cli/cli/build"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stringid"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil/request"
+	"github.com/Prakhar-Agarwal-byte/moby/volume"
 	"github.com/docker/go-connections/nat"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
@@ -1171,7 +1171,7 @@ func (s *DockerAPISuite) TestContainerAPIDeleteRemoveVolume(c *testing.T) {
 	assert.Assert(c, os.IsNotExist(err), "expected to get ErrNotExist error, got %v", err)
 }
 
-// Regression test for https://github.com/docker/docker/issues/6231
+// Regression test for https://github.com/Prakhar-Agarwal-byte/moby/issues/6231
 func (s *DockerAPISuite) TestContainerAPIChunkedEncoding(c *testing.T) {
 	config := map[string]interface{}{
 		"Image":     "busybox",

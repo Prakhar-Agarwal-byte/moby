@@ -1,13 +1,13 @@
 //go:build !windows
 
-package system // import "github.com/docker/docker/integration/system"
+package system // import "github.com/Prakhar-Agarwal-byte/moby/integration/system"
 
 import (
 	"net/http"
 	"testing"
 
-	"github.com/docker/docker/testutil"
-	req "github.com/docker/docker/testutil/request"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil"
+	req "github.com/Prakhar-Agarwal-byte/moby/testutil/request"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

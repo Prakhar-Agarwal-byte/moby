@@ -1,11 +1,11 @@
 package types
 
 import (
-	"github.com/docker/docker/api/types/checkpoint"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/image"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/api/types/system"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/checkpoint"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/image"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/swarm"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/system"
 )
 
 // CheckpointCreateOptions holds parameters to create a checkpoint from a container.

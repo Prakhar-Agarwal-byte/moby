@@ -7,13 +7,13 @@ import (
 	"fmt"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/ns"
-	"github.com/docker/docker/libnetwork/options"
-	"github.com/docker/docker/libnetwork/types"
-	"github.com/docker/docker/pkg/parsers/kernel"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/driverapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/netlabel"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ns"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/options"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/parsers/kernel"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stringid"
 )
 
 // CreateNetwork the network for the specified driver type

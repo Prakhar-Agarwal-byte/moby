@@ -1,6 +1,6 @@
 //go:build linux
 
-package btrfs // import "github.com/docker/docker/daemon/graphdriver/btrfs"
+package btrfs // import "github.com/Prakhar-Agarwal-byte/moby/daemon/graphdriver/btrfs"
 
 /*
 #include <stdlib.h>
@@ -36,10 +36,10 @@ import (
 
 	"github.com/containerd/containerd/pkg/userns"
 	"github.com/containerd/log"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/parsers"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/graphdriver"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/containerfs"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/idtools"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/parsers"
 	units "github.com/docker/go-units"
 	"github.com/moby/sys/mount"
 	"github.com/opencontainers/selinux/go-selinux/label"

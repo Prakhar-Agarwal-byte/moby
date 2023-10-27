@@ -1,10 +1,10 @@
 //go:build windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/pkg/plugingetter"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/config"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/plugingetter"
 )
 
 func registerMetricsPluginCallback(getter plugingetter.PluginGetter, sockPath string) {

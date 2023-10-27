@@ -1,6 +1,6 @@
 //go:build !wasip1
 
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
 
 import (
 	"archive/tar"
@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/docker/docker/pkg/system"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/system"
 	"github.com/pkg/errors"
 	"golang.org/x/sys/unix"
 )

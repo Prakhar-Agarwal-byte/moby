@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"context"
@@ -6,14 +6,14 @@ import (
 	"time"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/types/backend"
-	containertypes "github.com/docker/docker/api/types/container"
-	timetypes "github.com/docker/docker/api/types/time"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/daemon/logger"
-	logcache "github.com/docker/docker/daemon/logger/loggerutils/cache"
-	"github.com/docker/docker/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/backend"
+	containertypes "github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	timetypes "github.com/Prakhar-Agarwal-byte/moby/api/types/time"
+	"github.com/Prakhar-Agarwal-byte/moby/container"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/config"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/logger"
+	logcache "github.com/Prakhar-Agarwal-byte/moby/daemon/logger/loggerutils/cache"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
 	"github.com/pkg/errors"
 )
 

@@ -7,8 +7,8 @@ import (
 
 	"github.com/containerd/containerd/mount"
 	"github.com/containerd/log"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/graphdriver"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/idtools"
 	"github.com/moby/locker"
 )
 

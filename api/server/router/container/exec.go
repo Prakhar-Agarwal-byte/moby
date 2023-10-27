@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/api/server/router/container"
+package container // import "github.com/Prakhar-Agarwal-byte/moby/api/server/router/container"
 
 import (
 	"context"
@@ -8,12 +8,12 @@ import (
 	"strconv"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/stdcopy"
+	"github.com/Prakhar-Agarwal-byte/moby/api/server/httputils"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/versions"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stdcopy"
 )
 
 func (s *containerRouter) getExecByID(ctx context.Context, w http.ResponseWriter, r *http.Request, vars map[string]string) error {

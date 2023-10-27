@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stringid"
 	"github.com/docker/go-events"
 	"github.com/hashicorp/memberlist"
 	"gotest.tools/v3/assert"

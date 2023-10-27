@@ -8,9 +8,9 @@ import (
 	"net"
 	"os"
 
-	"github.com/docker/docker/libnetwork/ns"
-	"github.com/docker/docker/libnetwork/resolvconf"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ns"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/resolvconf"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
 	"github.com/pkg/errors"
 	"github.com/vishvananda/netlink"
 )

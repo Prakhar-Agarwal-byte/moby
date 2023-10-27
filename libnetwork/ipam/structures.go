@@ -6,9 +6,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/docker/libnetwork/bitmap"
-	"github.com/docker/docker/libnetwork/ipamapi"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/bitmap"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipamapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
 )
 
 // PoolID is the pointer to the configured pools in each address space

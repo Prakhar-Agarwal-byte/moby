@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/diagnostic"
-	"github.com/docker/docker/libnetwork/networkdb"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/diagnostic"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/networkdb"
 	events "github.com/docker/go-events"
 )
 

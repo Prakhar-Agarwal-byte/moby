@@ -1,4 +1,4 @@
-package build // import "github.com/docker/docker/integration/build"
+package build // import "github.com/Prakhar-Agarwal-byte/moby/integration/build"
 
 import (
 	"context"
@@ -7,12 +7,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration/internal/requirement"
-	"github.com/docker/docker/pkg/jsonmessage"
-	"github.com/docker/docker/testutil"
-	"github.com/docker/docker/testutil/daemon"
-	"github.com/docker/docker/testutil/fakecontext"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/integration/internal/requirement"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/jsonmessage"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil/daemon"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil/fakecontext"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/skip"
 )

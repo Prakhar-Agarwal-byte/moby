@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/Microsoft/hcsshim"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/drivers/windows"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipamapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipams/windowsipam"
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/drivers/windows"
-	"github.com/docker/docker/libnetwork/ipamapi"
-	"github.com/docker/docker/libnetwork/ipams/windowsipam"
 )
 
 func executeInCompartment(compartmentID uint32, x func()) {

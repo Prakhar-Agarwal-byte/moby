@@ -1,14 +1,14 @@
-package httpstatus // import "github.com/docker/docker/api/server/httpstatus"
+package httpstatus // import "github.com/Prakhar-Agarwal-byte/moby/api/server/httpstatus"
 
 import (
 	"context"
 	"fmt"
 	"net/http"
 
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
 	cerrdefs "github.com/containerd/containerd/errdefs"
 	"github.com/containerd/log"
 	"github.com/docker/distribution/registry/api/errcode"
-	"github.com/docker/docker/errdefs"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

@@ -1,11 +1,11 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/Prakhar-Agarwal-byte/moby/builder/dockerfile"
 
 import (
 	"context"
 
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	"github.com/Prakhar-Agarwal-byte/moby/builder"
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/builder"
 )
 
 // ImageProber exposes an Image cache to the Builder. It supports resetting a

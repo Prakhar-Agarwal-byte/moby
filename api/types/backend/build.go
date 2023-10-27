@@ -1,11 +1,11 @@
-package backend // import "github.com/docker/docker/api/types/backend"
+package backend // import "github.com/Prakhar-Agarwal-byte/moby/api/types/backend"
 
 import (
 	"io"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/pkg/streamformatter"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/registry"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/streamformatter"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

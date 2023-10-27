@@ -10,7 +10,7 @@
 //
 // Each container log message generates an ETW event that also contains:
 // the container name and ID, the timestamp, and the stream type.
-package etwlogs // import "github.com/docker/docker/daemon/logger/etwlogs"
+package etwlogs // import "github.com/Prakhar-Agarwal-byte/moby/daemon/logger/etwlogs"
 
 import (
 	"context"
@@ -20,7 +20,7 @@ import (
 	"unsafe"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/daemon/logger"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/logger"
 	"golang.org/x/sys/windows"
 )
 

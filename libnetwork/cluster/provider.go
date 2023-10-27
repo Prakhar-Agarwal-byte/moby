@@ -3,7 +3,7 @@ package cluster
 import (
 	"context"
 
-	"github.com/docker/docker/api/types/network"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/network"
 )
 
 const (

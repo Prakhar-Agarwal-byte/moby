@@ -1,10 +1,10 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/Prakhar-Agarwal-byte/moby/client"
 
 import (
 	"context"
 	"encoding/json"
 
-	"github.com/docker/docker/api/types/volume"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/volume"
 )
 
 // VolumeCreate creates a volume in the docker host.

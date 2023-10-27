@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/libnetwork/ipamapi"
-	"github.com/docker/docker/libnetwork/ipamutils"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipamapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipamutils"
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/sync/semaphore"
 	"gotest.tools/v3/assert"

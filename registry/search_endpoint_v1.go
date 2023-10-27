@@ -1,4 +1,4 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "github.com/Prakhar-Agarwal-byte/moby/registry"
 
 import (
 	"context"
@@ -8,9 +8,9 @@ import (
 	"net/url"
 	"strings"
 
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/registry"
 	"github.com/containerd/log"
 	"github.com/docker/distribution/registry/client/transport"
-	"github.com/docker/docker/api/types/registry"
 )
 
 // v1PingResult contains the information returned when pinging a registry. It

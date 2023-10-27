@@ -13,9 +13,9 @@ import (
 	"path/filepath"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/types"
-	"github.com/docker/docker/pkg/reexec"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/reexec"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stringid"
 	"github.com/opencontainers/runtime-spec/specs-go"
 )
 

@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"context"
@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	"github.com/containerd/log"
-	mounttypes "github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/container"
-	volumesservice "github.com/docker/docker/volume/service"
+	mounttypes "github.com/Prakhar-Agarwal-byte/moby/api/types/mount"
+	"github.com/Prakhar-Agarwal-byte/moby/container"
+	volumesservice "github.com/Prakhar-Agarwal-byte/moby/volume/service"
 )
 
 func (daemon *Daemon) prepareMountPoints(container *container.Container) error {

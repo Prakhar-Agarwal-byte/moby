@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"net"
 
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/driverapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/netutils"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ns"
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/netutils"
-	"github.com/docker/docker/libnetwork/ns"
 )
 
 type endpointTable map[string]*endpoint

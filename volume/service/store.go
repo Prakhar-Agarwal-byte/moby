@@ -1,4 +1,4 @@
-package service // import "github.com/docker/docker/volume/service"
+package service // import "github.com/Prakhar-Agarwal-byte/moby/volume/service"
 
 import (
 	"context"
@@ -9,13 +9,13 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/events"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/volume"
+	"github.com/Prakhar-Agarwal-byte/moby/volume/drivers"
+	volumemounts "github.com/Prakhar-Agarwal-byte/moby/volume/mounts"
+	"github.com/Prakhar-Agarwal-byte/moby/volume/service/opts"
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/volume"
-	"github.com/docker/docker/volume/drivers"
-	volumemounts "github.com/docker/docker/volume/mounts"
-	"github.com/docker/docker/volume/service/opts"
 	"github.com/moby/locker"
 	"github.com/pkg/errors"
 	bolt "go.etcd.io/bbolt"

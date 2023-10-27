@@ -1,4 +1,4 @@
-package queue // import "github.com/docker/docker/libcontainerd/queue"
+package queue // import "github.com/Prakhar-Agarwal-byte/moby/libcontainerd/queue"
 
 import (
 	"testing"

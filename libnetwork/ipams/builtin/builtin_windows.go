@@ -3,8 +3,8 @@
 package builtin
 
 import (
-	"github.com/docker/docker/libnetwork/ipamapi"
-	"github.com/docker/docker/libnetwork/ipams/windowsipam"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipamapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipams/windowsipam"
 )
 
 // Register registers the built-in ipam services with libnetwork.

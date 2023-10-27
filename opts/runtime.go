@@ -1,10 +1,10 @@
-package opts // import "github.com/docker/docker/opts"
+package opts // import "github.com/Prakhar-Agarwal-byte/moby/opts"
 
 import (
 	"fmt"
 	"strings"
 
-	"github.com/docker/docker/api/types/system"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/system"
 )
 
 // RuntimeOpt defines a map of Runtimes

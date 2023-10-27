@@ -1,11 +1,11 @@
-package tarexport // import "github.com/docker/docker/image/tarexport"
+package tarexport // import "github.com/Prakhar-Agarwal-byte/moby/image/tarexport"
 
 import (
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/events"
+	"github.com/Prakhar-Agarwal-byte/moby/image"
+	"github.com/Prakhar-Agarwal-byte/moby/layer"
+	refstore "github.com/Prakhar-Agarwal-byte/moby/reference"
 	"github.com/docker/distribution"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	refstore "github.com/docker/docker/reference"
 )
 
 const (

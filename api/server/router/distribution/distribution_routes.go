@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/api/server/router/distribution"
+package distribution // import "github.com/Prakhar-Agarwal-byte/moby/api/server/router/distribution"
 
 import (
 	"context"
@@ -9,9 +9,9 @@ import (
 	"github.com/docker/distribution/manifest/manifestlist"
 	"github.com/docker/distribution/manifest/schema1"
 	"github.com/docker/distribution/manifest/schema2"
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/api/server/httputils"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/registry"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 )

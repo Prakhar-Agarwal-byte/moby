@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/Prakhar-Agarwal-byte/moby/client"
 
 import (
 	"context"
@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/distribution/reference"
-	"github.com/docker/docker/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
 )
 
 // ImageImport creates a new image based on the source options.

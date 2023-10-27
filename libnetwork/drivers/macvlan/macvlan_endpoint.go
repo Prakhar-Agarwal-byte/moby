@@ -6,12 +6,12 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/driverapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/netlabel"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/netutils"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ns"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/netutils"
-	"github.com/docker/docker/libnetwork/ns"
-	"github.com/docker/docker/libnetwork/types"
 )
 
 // CreateEndpoint assigns the mac, ip and endpoint id for the new container

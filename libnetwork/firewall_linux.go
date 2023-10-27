@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/iptables"
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/iptables"
 )
 
 const userChain = "DOCKER-USER"

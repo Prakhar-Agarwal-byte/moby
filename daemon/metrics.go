@@ -1,13 +1,13 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"context"
 	"sync"
 
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/plugingetter"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/plugins"
 	"github.com/containerd/log"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
 	metrics "github.com/docker/go-metrics"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"

@@ -1,4 +1,4 @@
-package network // import "github.com/docker/docker/api/server/router/network"
+package network // import "github.com/Prakhar-Agarwal-byte/moby/api/server/router/network"
 
 import (
 	"context"
@@ -6,14 +6,14 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/libnetwork"
-	"github.com/docker/docker/libnetwork/scope"
+	"github.com/Prakhar-Agarwal-byte/moby/api/server/httputils"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/filters"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/network"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/versions"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/scope"
 	"github.com/pkg/errors"
 )
 

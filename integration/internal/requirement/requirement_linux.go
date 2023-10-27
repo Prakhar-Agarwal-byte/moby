@@ -1,10 +1,10 @@
-package requirement // import "github.com/docker/docker/integration/internal/requirement"
+package requirement // import "github.com/Prakhar-Agarwal-byte/moby/integration/internal/requirement"
 
 import (
 	"os"
 	"strings"
 
-	"github.com/docker/docker/pkg/parsers/kernel"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/parsers/kernel"
 	"gotest.tools/v3/icmd"
 )
 

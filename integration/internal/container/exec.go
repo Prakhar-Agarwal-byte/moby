@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/client"
 )
 
 // ExecResult represents a result returned from Exec()

@@ -4,8 +4,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/client"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/poll"
 )

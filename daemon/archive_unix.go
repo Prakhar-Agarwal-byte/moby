@@ -1,6 +1,6 @@
 //go:build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"context"
@@ -8,13 +8,13 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/ioutils"
-	volumemounts "github.com/docker/docker/volume/mounts"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/events"
+	"github.com/Prakhar-Agarwal-byte/moby/container"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/ioutils"
+	volumemounts "github.com/Prakhar-Agarwal-byte/moby/volume/mounts"
 	"github.com/pkg/errors"
 )
 

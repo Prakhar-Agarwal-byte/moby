@@ -4,14 +4,14 @@ import (
 	"context"
 	"sync"
 
+	"github.com/Prakhar-Agarwal-byte/moby/distribution"
+	"github.com/Prakhar-Agarwal-byte/moby/image"
+	"github.com/Prakhar-Agarwal-byte/moby/layer"
 	"github.com/containerd/containerd/content"
 	cerrdefs "github.com/containerd/containerd/errdefs"
 	"github.com/containerd/containerd/leases"
 	"github.com/containerd/containerd/namespaces"
 	"github.com/containerd/log"
-	"github.com/docker/docker/distribution"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 )

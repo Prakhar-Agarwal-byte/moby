@@ -1,7 +1,7 @@
-package network // import "github.com/docker/docker/api/server/router/network"
+package network // import "github.com/Prakhar-Agarwal-byte/moby/api/server/router/network"
 
 import (
-	"github.com/docker/docker/api/server/router"
+	"github.com/Prakhar-Agarwal-byte/moby/api/server/router"
 )
 
 // networkRouter is a router to talk with the network controller

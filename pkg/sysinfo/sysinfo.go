@@ -1,7 +1,7 @@
 // Package sysinfo stores information about which features a kernel supports.
-package sysinfo // import "github.com/docker/docker/pkg/sysinfo"
+package sysinfo // import "github.com/Prakhar-Agarwal-byte/moby/pkg/sysinfo"
 
-import "github.com/docker/docker/pkg/parsers"
+import "github.com/Prakhar-Agarwal-byte/moby/pkg/parsers"
 
 // Opt for New().
 type Opt func(info *SysInfo)

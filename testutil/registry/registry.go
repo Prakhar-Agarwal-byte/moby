@@ -1,4 +1,4 @@
-package registry // import "github.com/docker/docker/testutil/registry"
+package registry // import "github.com/Prakhar-Agarwal-byte/moby/testutil/registry"
 
 import (
 	"fmt"

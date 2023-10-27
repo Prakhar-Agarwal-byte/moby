@@ -1,12 +1,12 @@
-package network // import "github.com/docker/docker/integration/network"
+package network // import "github.com/Prakhar-Agarwal-byte/moby/integration/network"
 
 import (
 	"context"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/testutil"
-	"github.com/docker/docker/testutil/environment"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil/environment"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/codes"
 )

@@ -1,14 +1,14 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/Prakhar-Agarwal-byte/moby/builder/dockerfile"
 
 import (
 	"context"
 	"runtime"
 
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/backend"
+	"github.com/Prakhar-Agarwal-byte/moby/builder"
+	dockerimage "github.com/Prakhar-Agarwal-byte/moby/image"
 	"github.com/containerd/containerd/platforms"
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/builder"
-	dockerimage "github.com/docker/docker/image"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 )

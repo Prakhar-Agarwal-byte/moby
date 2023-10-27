@@ -1,4 +1,4 @@
-package middleware // import "github.com/docker/docker/api/server/middleware"
+package middleware // import "github.com/Prakhar-Agarwal-byte/moby/api/server/middleware"
 
 import (
 	"bufio"
@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/Prakhar-Agarwal-byte/moby/api/server/httputils"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/ioutils"
 )
 
 // DebugRequestMiddleware dumps the request to logger

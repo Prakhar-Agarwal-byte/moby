@@ -1,6 +1,6 @@
 //go:build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"context"
@@ -11,10 +11,10 @@ import (
 	"time"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
-	"github.com/docker/docker/plugin"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/config"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/plugingetter"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/plugins"
+	"github.com/Prakhar-Agarwal-byte/moby/plugin"
 	metrics "github.com/docker/go-metrics"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"

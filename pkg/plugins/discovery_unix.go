@@ -1,11 +1,11 @@
 //go:build !windows
 
-package plugins // import "github.com/docker/docker/pkg/plugins"
+package plugins // import "github.com/Prakhar-Agarwal-byte/moby/pkg/plugins"
 import (
 	"path/filepath"
 
-	"github.com/docker/docker/pkg/homedir"
-	"github.com/docker/docker/pkg/rootless"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/homedir"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/rootless"
 )
 
 func rootlessConfigPluginsPath() string {

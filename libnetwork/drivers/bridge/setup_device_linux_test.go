@@ -5,8 +5,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/docker/docker/internal/testutils/netnsutils"
-	"github.com/docker/docker/libnetwork/netutils"
+	"github.com/Prakhar-Agarwal-byte/moby/internal/testutils/netnsutils"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/netutils"
 	"github.com/vishvananda/netlink"
 )
 

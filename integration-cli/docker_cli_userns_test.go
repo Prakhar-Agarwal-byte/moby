@@ -13,8 +13,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/testutil"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stringid"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

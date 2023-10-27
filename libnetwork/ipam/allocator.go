@@ -8,10 +8,10 @@ import (
 	"strings"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/bitmap"
-	"github.com/docker/docker/libnetwork/ipamapi"
-	"github.com/docker/docker/libnetwork/ipbits"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/bitmap"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipamapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipbits"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
 )
 
 const (

@@ -1,4 +1,4 @@
-package cluster // import "github.com/docker/docker/daemon/cluster"
+package cluster // import "github.com/Prakhar-Agarwal-byte/moby/daemon/cluster"
 
 import (
 	"fmt"

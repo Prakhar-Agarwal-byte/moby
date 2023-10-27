@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/Prakhar-Agarwal-byte/moby/distribution"
 
 import (
 	"context"
@@ -10,6 +10,16 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Prakhar-Agarwal-byte/moby/distribution/metadata"
+	"github.com/Prakhar-Agarwal-byte/moby/distribution/xfer"
+	"github.com/Prakhar-Agarwal-byte/moby/image"
+	v1 "github.com/Prakhar-Agarwal-byte/moby/image/v1"
+	"github.com/Prakhar-Agarwal-byte/moby/layer"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/ioutils"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/progress"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stringid"
+	refstore "github.com/Prakhar-Agarwal-byte/moby/reference"
+	"github.com/Prakhar-Agarwal-byte/moby/registry"
 	"github.com/containerd/containerd/platforms"
 	"github.com/containerd/log"
 	"github.com/distribution/reference"
@@ -19,16 +29,6 @@ import (
 	"github.com/docker/distribution/manifest/schema1"
 	"github.com/docker/distribution/manifest/schema2"
 	"github.com/docker/distribution/registry/client/transport"
-	"github.com/docker/docker/distribution/metadata"
-	"github.com/docker/docker/distribution/xfer"
-	"github.com/docker/docker/image"
-	v1 "github.com/docker/docker/image/v1"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/progress"
-	"github.com/docker/docker/pkg/stringid"
-	refstore "github.com/docker/docker/reference"
-	"github.com/docker/docker/registry"
 	"github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
@@ -674,7 +674,7 @@ func (p *puller) pullSchema2Layers(ctx context.Context, target distribution.Desc
 		layerStoreOS = platform.OS
 	}
 
-	// https://github.com/docker/docker/issues/24766 - Err on the side of caution,
+	// https://github.com/Prakhar-Agarwal-byte/moby/issues/24766 - Err on the side of caution,
 	// explicitly blocking images intended for linux from the Windows daemon. On
 	// Windows, we do this before the attempt to download, effectively serialising
 	// the download slightly slowing it down. We have to do it this way, as

@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/Prakhar-Agarwal-byte/moby/integration/container"
 
 import (
 	"archive/tar"
@@ -9,12 +9,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/jsonmessage"
-	"github.com/docker/docker/testutil/fakecontext"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/integration/internal/container"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/jsonmessage"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil/fakecontext"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/skip"

@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/daemon/cluster/executor/container"
+package container // import "github.com/Prakhar-Agarwal-byte/moby/daemon/cluster/executor/container"
 
 import (
 	"context"
@@ -13,18 +13,18 @@ import (
 
 	"github.com/containerd/log"
 	"github.com/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/events"
-	imagetypes "github.com/docker/docker/api/types/image"
-	"github.com/docker/docker/api/types/registry"
-	containerpkg "github.com/docker/docker/container"
-	"github.com/docker/docker/daemon"
-	"github.com/docker/docker/daemon/cluster/convert"
-	executorpkg "github.com/docker/docker/daemon/cluster/executor"
-	"github.com/docker/docker/libnetwork"
-	volumeopts "github.com/docker/docker/volume/service/opts"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/backend"
+	containertypes "github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/events"
+	imagetypes "github.com/Prakhar-Agarwal-byte/moby/api/types/image"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/registry"
+	containerpkg "github.com/Prakhar-Agarwal-byte/moby/container"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/cluster/convert"
+	executorpkg "github.com/Prakhar-Agarwal-byte/moby/daemon/cluster/executor"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork"
+	volumeopts "github.com/Prakhar-Agarwal-byte/moby/volume/service/opts"
 	gogotypes "github.com/gogo/protobuf/types"
 	"github.com/moby/swarmkit/v2/agent/exec"
 	"github.com/moby/swarmkit/v2/api"
@@ -506,7 +506,7 @@ func (c *containerAdapter) logs(ctx context.Context, options api.LogSubscription
 		}
 		// print since as this formatted string because the docker container
 		// logs interface expects it like this.
-		// see github.com/docker/docker/api/types/time.ParseTimestamps
+		// see github.com/Prakhar-Agarwal-byte/moby/api/types/time.ParseTimestamps
 		apiOptions.Since = fmt.Sprintf("%d.%09d", since.Unix(), int64(since.Nanosecond()))
 	}
 

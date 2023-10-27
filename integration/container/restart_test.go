@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/Prakhar-Agarwal-byte/moby/integration/container"
 
 import (
 	"context"
@@ -7,14 +7,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/client"
-	testContainer "github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/testutil"
-	"github.com/docker/docker/testutil/daemon"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/events"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/filters"
+	"github.com/Prakhar-Agarwal-byte/moby/client"
+	testContainer "github.com/Prakhar-Agarwal-byte/moby/integration/internal/container"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil/daemon"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/poll"

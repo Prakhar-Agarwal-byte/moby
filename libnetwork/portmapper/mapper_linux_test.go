@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/libnetwork/iptables"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/iptables"
 )
 
 func init() {

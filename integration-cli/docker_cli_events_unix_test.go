@@ -14,8 +14,8 @@ import (
 	"unicode"
 
 	"github.com/creack/pty"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/cli/build"
+	"github.com/Prakhar-Agarwal-byte/moby/integration-cli/cli"
+	"github.com/Prakhar-Agarwal-byte/moby/integration-cli/cli/build"
 	"golang.org/x/sys/unix"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

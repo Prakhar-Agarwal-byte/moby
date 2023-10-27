@@ -1,6 +1,6 @@
 //go:build !linux && !freebsd
 
-package logger // import "github.com/docker/docker/daemon/logger"
+package logger // import "github.com/Prakhar-Agarwal-byte/moby/daemon/logger"
 
 import (
 	"errors"

@@ -1,12 +1,12 @@
-package service // import "github.com/docker/docker/integration/service"
+package service // import "github.com/Prakhar-Agarwal-byte/moby/integration/service"
 
 import (
 	"context"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/testutil"
-	"github.com/docker/docker/testutil/environment"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil/environment"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/codes"
 )

@@ -1,13 +1,13 @@
-package system // import "github.com/docker/docker/integration/system"
+package system // import "github.com/Prakhar-Agarwal-byte/moby/integration/system"
 
 import (
 	"fmt"
 	"sort"
 	"testing"
 
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/testutil"
-	"github.com/docker/docker/testutil/daemon"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/registry"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil/daemon"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/skip"

@@ -5,10 +5,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/docker/docker/libnetwork/ipamapi"
-	builtinIpam "github.com/docker/docker/libnetwork/ipams/builtin"
-	nullIpam "github.com/docker/docker/libnetwork/ipams/null"
-	remoteIpam "github.com/docker/docker/libnetwork/ipams/remote"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipamapi"
+	builtinIpam "github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipams/builtin"
+	nullIpam "github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipams/null"
+	remoteIpam "github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipams/remote"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

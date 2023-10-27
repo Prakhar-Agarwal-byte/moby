@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/pkg/archive"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
 	"golang.org/x/sys/unix"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/skip"

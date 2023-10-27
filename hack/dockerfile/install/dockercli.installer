@@ -21,7 +21,7 @@ install_dockercli() {
 }
 
 build_dockercli() {
-	git clone https://github.com/docker/docker-ce "$GOPATH/tmp/docker-ce"
+	git clone https://github.com/Prakhar-Agarwal-byte/moby-ce "$GOPATH/tmp/docker-ce"
 	cd "$GOPATH/tmp/docker-ce"
 	git checkout -q "v$DOCKERCLI_VERSION"
 	mkdir -p "$GOPATH/src/github.com/docker"

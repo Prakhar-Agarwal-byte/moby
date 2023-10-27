@@ -35,7 +35,7 @@
 // The only modifications to the original source were:
 // - replacing the usage of internal reflectlite with reflect
 // - replacing the usage of private value function with Value method call
-package compatcontext // import "github.com/docker/docker/internal/compatcontext"
+package compatcontext // import "github.com/Prakhar-Agarwal-byte/moby/internal/compatcontext"
 
 import (
 	"context"

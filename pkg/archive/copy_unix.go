@@ -1,6 +1,6 @@
 //go:build !windows
 
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
 
 import (
 	"path/filepath"

@@ -1,6 +1,6 @@
 //go:build linux
 
-package seccomp // import "github.com/docker/docker/profiles/seccomp"
+package seccomp // import "github.com/Prakhar-Agarwal-byte/moby/profiles/seccomp"
 
 import (
 	"encoding/json"
@@ -142,7 +142,7 @@ func TestLoadProfileValidation(t *testing.T) {
 }
 
 // TestLoadLegacyProfile tests loading a seccomp profile in the old format
-// (before https://github.com/docker/docker/pull/24510)
+// (before https://github.com/Prakhar-Agarwal-byte/moby/pull/24510)
 func TestLoadLegacyProfile(t *testing.T) {
 	f, err := os.ReadFile("fixtures/default-old-format.json")
 	if err != nil {

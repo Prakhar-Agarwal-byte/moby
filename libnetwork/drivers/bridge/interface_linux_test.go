@@ -3,7 +3,7 @@ package bridge
 import (
 	"testing"
 
-	"github.com/docker/docker/internal/testutils/netnsutils"
+	"github.com/Prakhar-Agarwal-byte/moby/internal/testutils/netnsutils"
 	"github.com/vishvananda/netlink"
 )
 

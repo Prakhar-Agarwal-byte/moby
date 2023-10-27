@@ -1,6 +1,6 @@
 //go:build !windows
 
-package authz // import "github.com/docker/docker/integration/plugin/authz"
+package authz // import "github.com/Prakhar-Agarwal-byte/moby/integration/plugin/authz"
 
 import (
 	"context"
@@ -13,11 +13,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/pkg/authorization"
-	"github.com/docker/docker/pkg/plugins"
-	"github.com/docker/docker/testutil"
-	"github.com/docker/docker/testutil/daemon"
-	"github.com/docker/docker/testutil/environment"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/authorization"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/plugins"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil/daemon"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil/environment"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"

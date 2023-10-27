@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"context"
@@ -7,9 +7,9 @@ import (
 	"github.com/containerd/containerd/containers"
 	coci "github.com/containerd/containerd/oci"
 	"github.com/containerd/log"
-	"github.com/docker/docker/container"
-	dconfig "github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/profiles/seccomp"
+	"github.com/Prakhar-Agarwal-byte/moby/container"
+	dconfig "github.com/Prakhar-Agarwal-byte/moby/daemon/config"
+	"github.com/Prakhar-Agarwal-byte/moby/profiles/seccomp"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

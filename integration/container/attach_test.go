@@ -1,12 +1,12 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/Prakhar-Agarwal-byte/moby/integration/container"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/testutil"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/network"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

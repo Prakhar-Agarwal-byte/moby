@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/Prakhar-Agarwal-byte/moby/integration/container"
 
 import (
 	"context"
@@ -8,14 +8,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/errdefs"
-	ctr "github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/oci"
-	"github.com/docker/docker/testutil"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/network"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/versions"
+	"github.com/Prakhar-Agarwal-byte/moby/client"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	ctr "github.com/Prakhar-Agarwal-byte/moby/integration/internal/container"
+	"github.com/Prakhar-Agarwal-byte/moby/oci"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

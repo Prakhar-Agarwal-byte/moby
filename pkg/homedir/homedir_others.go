@@ -1,6 +1,6 @@
 //go:build !linux
 
-package homedir // import "github.com/docker/docker/pkg/homedir"
+package homedir // import "github.com/Prakhar-Agarwal-byte/moby/pkg/homedir"
 
 import (
 	"errors"

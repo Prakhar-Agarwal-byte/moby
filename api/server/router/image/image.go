@@ -1,10 +1,10 @@
-package image // import "github.com/docker/docker/api/server/router/image"
+package image // import "github.com/Prakhar-Agarwal-byte/moby/api/server/router/image"
 
 import (
-	"github.com/docker/docker/api/server/router"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/reference"
+	"github.com/Prakhar-Agarwal-byte/moby/api/server/router"
+	"github.com/Prakhar-Agarwal-byte/moby/image"
+	"github.com/Prakhar-Agarwal-byte/moby/layer"
+	"github.com/Prakhar-Agarwal-byte/moby/reference"
 )
 
 // imageRouter is a router to talk with the image controller

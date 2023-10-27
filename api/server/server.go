@@ -1,16 +1,16 @@
-package server // import "github.com/docker/docker/api/server"
+package server // import "github.com/Prakhar-Agarwal-byte/moby/api/server"
 
 import (
 	"context"
 	"net/http"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/server/httpstatus"
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/server/middleware"
-	"github.com/docker/docker/api/server/router"
-	"github.com/docker/docker/api/server/router/debug"
-	"github.com/docker/docker/dockerversion"
+	"github.com/Prakhar-Agarwal-byte/moby/api/server/httpstatus"
+	"github.com/Prakhar-Agarwal-byte/moby/api/server/httputils"
+	"github.com/Prakhar-Agarwal-byte/moby/api/server/middleware"
+	"github.com/Prakhar-Agarwal-byte/moby/api/server/router"
+	"github.com/Prakhar-Agarwal-byte/moby/api/server/router/debug"
+	"github.com/Prakhar-Agarwal-byte/moby/dockerversion"
 	"github.com/gorilla/mux"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 )

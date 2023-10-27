@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/docker/docker/api/types/container"
-	imagetype "github.com/docker/docker/api/types/image"
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/image"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	imagetype "github.com/Prakhar-Agarwal-byte/moby/api/types/image"
+	"github.com/Prakhar-Agarwal-byte/moby/builder"
+	"github.com/Prakhar-Agarwal-byte/moby/image"
 )
 
 // MakeImageCache creates a stateful image cache.

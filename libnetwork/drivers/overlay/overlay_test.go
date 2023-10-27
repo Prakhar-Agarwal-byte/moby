@@ -5,8 +5,8 @@ package overlay
 import (
 	"testing"
 
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/pkg/plugingetter"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/driverapi"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/plugingetter"
 )
 
 type driverTester struct {

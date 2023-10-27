@@ -1,9 +1,9 @@
-package system // import "github.com/docker/docker/api/server/router/system"
+package system // import "github.com/Prakhar-Agarwal-byte/moby/api/server/router/system"
 
 import (
-	"github.com/docker/docker/api/server/router"
-	"github.com/docker/docker/api/types/system"
-	buildkit "github.com/docker/docker/builder/builder-next"
+	"github.com/Prakhar-Agarwal-byte/moby/api/server/router"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/system"
+	buildkit "github.com/Prakhar-Agarwal-byte/moby/builder/builder-next"
 	"resenje.org/singleflight"
 )
 

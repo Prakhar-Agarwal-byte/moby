@@ -1,6 +1,6 @@
 //go:build !windows
 
-package authorization // import "github.com/docker/docker/pkg/authorization"
+package authorization // import "github.com/Prakhar-Agarwal-byte/moby/pkg/authorization"
 
 import (
 	"context"
@@ -8,7 +8,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/docker/docker/pkg/plugingetter"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/plugingetter"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

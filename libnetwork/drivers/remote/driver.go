@@ -6,13 +6,13 @@ import (
 	"net"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/discoverapi"
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/drivers/remote/api"
-	"github.com/docker/docker/libnetwork/scope"
-	"github.com/docker/docker/libnetwork/types"
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/discoverapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/driverapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/drivers/remote/api"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/scope"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/plugingetter"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/plugins"
 	"github.com/pkg/errors"
 )
 

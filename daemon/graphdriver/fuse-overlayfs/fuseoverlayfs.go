@@ -1,6 +1,6 @@
 //go:build linux
 
-package fuseoverlayfs // import "github.com/docker/docker/daemon/graphdriver/fuse-overlayfs"
+package fuseoverlayfs // import "github.com/Prakhar-Agarwal-byte/moby/daemon/graphdriver/fuse-overlayfs"
 
 import (
 	"bytes"
@@ -15,14 +15,14 @@ import (
 
 	"github.com/containerd/containerd/pkg/userns"
 	"github.com/containerd/log"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/daemon/graphdriver/overlayutils"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/chrootarchive"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/directory"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/parsers/kernel"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/graphdriver"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/graphdriver/overlayutils"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/chrootarchive"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/containerfs"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/directory"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/idtools"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/parsers/kernel"
 	"github.com/moby/locker"
 	"github.com/moby/sys/mount"
 	"github.com/opencontainers/selinux/go-selinux/label"

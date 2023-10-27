@@ -1,14 +1,14 @@
 //go:build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"context"
 	"os"
 	"os/signal"
 
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stack"
 	"github.com/containerd/log"
-	"github.com/docker/docker/pkg/stack"
 	"golang.org/x/sys/unix"
 )
 

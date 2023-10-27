@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"context"
@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/events"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
 )
 
 // ContainerResize changes the size of the TTY of the process running

@@ -1,4 +1,4 @@
-package local // import "github.com/docker/docker/libcontainerd/local"
+package local // import "github.com/Prakhar-Agarwal-byte/moby/libcontainerd/local"
 
 // This package contains the legacy in-proc calls in HCS using the v1 schema
 // for Windows runtime purposes.
@@ -16,15 +16,15 @@ import (
 	"time"
 
 	"github.com/Microsoft/hcsshim"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/libcontainerd/queue"
+	libcontainerdtypes "github.com/Prakhar-Agarwal-byte/moby/libcontainerd/types"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/sysinfo"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/system"
 	"github.com/containerd/containerd"
 	"github.com/containerd/containerd/cio"
 	cerrdefs "github.com/containerd/containerd/errdefs"
 	"github.com/containerd/log"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/libcontainerd/queue"
-	libcontainerdtypes "github.com/docker/docker/libcontainerd/types"
-	"github.com/docker/docker/pkg/sysinfo"
-	"github.com/docker/docker/pkg/system"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
 	"golang.org/x/sys/windows"

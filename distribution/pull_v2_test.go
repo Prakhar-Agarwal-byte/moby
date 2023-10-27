@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/Prakhar-Agarwal-byte/moby/distribution"
 
 import (
 	"context"
@@ -14,11 +14,11 @@ import (
 	"sync/atomic"
 	"testing"
 
+	registrytypes "github.com/Prakhar-Agarwal-byte/moby/api/types/registry"
+	"github.com/Prakhar-Agarwal-byte/moby/image"
+	"github.com/Prakhar-Agarwal-byte/moby/registry"
 	"github.com/distribution/reference"
 	"github.com/docker/distribution/manifest/schema1"
-	registrytypes "github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/registry"
 	"github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"gotest.tools/v3/assert"

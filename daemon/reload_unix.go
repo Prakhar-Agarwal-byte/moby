@@ -1,12 +1,12 @@
 //go:build linux || freebsd
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"bytes"
 	"strconv"
 
-	"github.com/docker/docker/daemon/config"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/config"
 )
 
 // reloadPlatform updates configuration with platform specific options

@@ -1,6 +1,6 @@
 //go:build !linux && !freebsd
 
-package zfs // import "github.com/docker/docker/daemon/graphdriver/zfs"
+package zfs // import "github.com/Prakhar-Agarwal-byte/moby/daemon/graphdriver/zfs"
 
 func checkRootdirFs(rootdir string) error {
 	return nil

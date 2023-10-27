@@ -1,4 +1,4 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/Prakhar-Agarwal-byte/moby/daemon/images"
 
 import (
 	"context"
@@ -6,14 +6,14 @@ import (
 
 	"github.com/containerd/containerd/content"
 	"github.com/containerd/containerd/leases"
-	"github.com/docker/docker/container"
-	daemonevents "github.com/docker/docker/daemon/events"
-	"github.com/docker/docker/distribution"
-	"github.com/docker/docker/distribution/metadata"
-	"github.com/docker/docker/distribution/xfer"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	dockerreference "github.com/docker/docker/reference"
+	"github.com/Prakhar-Agarwal-byte/moby/container"
+	daemonevents "github.com/Prakhar-Agarwal-byte/moby/daemon/events"
+	"github.com/Prakhar-Agarwal-byte/moby/distribution"
+	"github.com/Prakhar-Agarwal-byte/moby/distribution/metadata"
+	"github.com/Prakhar-Agarwal-byte/moby/distribution/xfer"
+	"github.com/Prakhar-Agarwal-byte/moby/image"
+	"github.com/Prakhar-Agarwal-byte/moby/layer"
+	dockerreference "github.com/Prakhar-Agarwal-byte/moby/reference"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 )

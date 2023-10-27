@@ -10,9 +10,9 @@ import (
 	"sync"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/etchosts"
-	"github.com/docker/docker/libnetwork/osl"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/etchosts"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/osl"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"

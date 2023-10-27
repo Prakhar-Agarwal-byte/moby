@@ -1,4 +1,4 @@
-package system // import "github.com/docker/docker/integration/system"
+package system // import "github.com/Prakhar-Agarwal-byte/moby/integration/system"
 
 import (
 	"testing"

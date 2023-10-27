@@ -1,6 +1,6 @@
 //go:build !windows && !wasip1
 
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
 
 import (
 	"archive/tar"
@@ -12,8 +12,8 @@ import (
 	"syscall"
 
 	"github.com/containerd/containerd/pkg/userns"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/system"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/idtools"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/system"
 	"golang.org/x/sys/unix"
 )
 

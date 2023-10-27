@@ -1,4 +1,4 @@
-package syslog // import "github.com/docker/docker/daemon/logger/syslog"
+package syslog // import "github.com/Prakhar-Agarwal-byte/moby/daemon/logger/syslog"
 
 import (
 	"log"

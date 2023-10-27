@@ -1,14 +1,14 @@
 //go:build !windows
 
-package ipvlan // import "github.com/docker/docker/integration/network/ipvlan"
+package ipvlan // import "github.com/Prakhar-Agarwal-byte/moby/integration/network/ipvlan"
 
 import (
 	"context"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/testutil"
-	"github.com/docker/docker/testutil/environment"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil/environment"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/codes"
 )

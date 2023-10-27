@@ -1,13 +1,13 @@
 //go:build !windows
 
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/Prakhar-Agarwal-byte/moby/builder/dockerfile"
 
 import (
 	"errors"
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/api/types/container"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/container"
 	"github.com/moby/buildkit/frontend/dockerfile/instructions"
 )
 

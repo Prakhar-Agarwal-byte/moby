@@ -1,4 +1,4 @@
-package pidfile // import "github.com/docker/docker/pkg/pidfile"
+package pidfile // import "github.com/Prakhar-Agarwal-byte/moby/pkg/pidfile"
 
 import (
 	"errors"

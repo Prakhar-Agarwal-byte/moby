@@ -1,4 +1,4 @@
-package config // import "github.com/docker/docker/daemon/config"
+package config // import "github.com/Prakhar-Agarwal-byte/moby/daemon/config"
 
 import (
 	"fmt"
@@ -6,12 +6,12 @@ import (
 	"os/exec"
 	"path/filepath"
 
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/system"
+	"github.com/Prakhar-Agarwal-byte/moby/opts"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/homedir"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/rootless"
 	"github.com/containerd/cgroups/v3"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/system"
-	"github.com/docker/docker/opts"
-	"github.com/docker/docker/pkg/homedir"
-	"github.com/docker/docker/pkg/rootless"
 	units "github.com/docker/go-units"
 	"github.com/pkg/errors"
 )

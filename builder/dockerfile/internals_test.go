@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/Prakhar-Agarwal-byte/moby/builder/dockerfile"
 
 import (
 	"context"
@@ -7,14 +7,14 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/builder/remotecontext"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/archive"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/backend"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	"github.com/Prakhar-Agarwal-byte/moby/builder"
+	"github.com/Prakhar-Agarwal-byte/moby/builder/remotecontext"
+	"github.com/Prakhar-Agarwal-byte/moby/image"
+	"github.com/Prakhar-Agarwal-byte/moby/layer"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
 	"github.com/docker/go-connections/nat"
 	"github.com/opencontainers/go-digest"
 	"gotest.tools/v3/assert"

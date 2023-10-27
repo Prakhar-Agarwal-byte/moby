@@ -13,7 +13,7 @@ import (
 	"path"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/pkg/archive"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
 )
 
 var (

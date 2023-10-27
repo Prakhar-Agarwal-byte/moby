@@ -1,11 +1,11 @@
-package container // import "github.com/docker/docker/container"
+package container // import "github.com/Prakhar-Agarwal-byte/moby/container"
 
 import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/archive"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
 	"github.com/pkg/errors"
 )
 

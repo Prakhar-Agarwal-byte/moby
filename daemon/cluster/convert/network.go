@@ -1,12 +1,12 @@
-package convert // import "github.com/docker/docker/daemon/cluster/convert"
+package convert // import "github.com/Prakhar-Agarwal-byte/moby/daemon/cluster/convert"
 
 import (
 	"strings"
 
-	basictypes "github.com/docker/docker/api/types"
-	networktypes "github.com/docker/docker/api/types/network"
-	types "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/libnetwork/scope"
+	basictypes "github.com/Prakhar-Agarwal-byte/moby/api/types"
+	networktypes "github.com/Prakhar-Agarwal-byte/moby/api/types/network"
+	types "github.com/Prakhar-Agarwal-byte/moby/api/types/swarm"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/scope"
 	gogotypes "github.com/gogo/protobuf/types"
 	swarmapi "github.com/moby/swarmkit/v2/api"
 )

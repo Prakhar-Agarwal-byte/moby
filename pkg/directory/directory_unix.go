@@ -1,6 +1,6 @@
 //go:build linux || freebsd || darwin
 
-package directory // import "github.com/docker/docker/pkg/directory"
+package directory // import "github.com/Prakhar-Agarwal-byte/moby/pkg/directory"
 
 import (
 	"context"

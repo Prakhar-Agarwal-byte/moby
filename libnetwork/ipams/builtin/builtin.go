@@ -3,9 +3,9 @@ package builtin
 import (
 	"net"
 
-	"github.com/docker/docker/libnetwork/ipam"
-	"github.com/docker/docker/libnetwork/ipamapi"
-	"github.com/docker/docker/libnetwork/ipamutils"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipam"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipamapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipamutils"
 )
 
 // defaultAddressPool Stores user configured subnet list

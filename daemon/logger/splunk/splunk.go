@@ -1,6 +1,6 @@
 // Package splunk provides the log driver for forwarding server logs to
 // Splunk HTTP Event Collector endpoint.
-package splunk // import "github.com/docker/docker/daemon/logger/splunk"
+package splunk // import "github.com/Prakhar-Agarwal-byte/moby/daemon/logger/splunk"
 
 import (
 	"bytes"
@@ -20,9 +20,9 @@ import (
 	"time"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/daemon/logger/loggerutils"
-	"github.com/docker/docker/pkg/pools"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/logger"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/logger/loggerutils"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/pools"
 	"github.com/google/uuid"
 )
 

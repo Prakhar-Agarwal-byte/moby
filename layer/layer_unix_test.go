@@ -1,6 +1,6 @@
 //go:build !windows
 
-package layer // import "github.com/docker/docker/layer"
+package layer // import "github.com/Prakhar-Agarwal-byte/moby/layer"
 
 import (
 	"testing"

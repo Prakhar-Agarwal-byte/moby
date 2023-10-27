@@ -5,11 +5,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/internal/testutils/netnsutils"
-	"github.com/docker/docker/libnetwork/config"
-	"github.com/docker/docker/libnetwork/iptables"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/options"
+	"github.com/Prakhar-Agarwal-byte/moby/internal/testutils/netnsutils"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/config"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/iptables"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/netlabel"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/options"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

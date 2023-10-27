@@ -1,6 +1,6 @@
 //go:build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"bufio"
@@ -12,8 +12,8 @@ import (
 
 	statsV1 "github.com/containerd/cgroups/v3/cgroup1/stats"
 	statsV2 "github.com/containerd/cgroups/v3/cgroup2/stats"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/container"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/container"
 	"github.com/pkg/errors"
 )
 

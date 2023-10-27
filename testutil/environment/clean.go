@@ -1,4 +1,4 @@
-package environment // import "github.com/docker/docker/testutil/environment"
+package environment // import "github.com/Prakhar-Agarwal-byte/moby/testutil/environment"
 
 import (
 	"context"
@@ -6,12 +6,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/volume"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/filters"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/volume"
+	"github.com/Prakhar-Agarwal-byte/moby/client"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
 	"go.opentelemetry.io/otel"
 	"gotest.tools/v3/assert"
 )

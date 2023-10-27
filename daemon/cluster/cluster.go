@@ -1,4 +1,4 @@
-package cluster // import "github.com/docker/docker/daemon/cluster"
+package cluster // import "github.com/Prakhar-Agarwal-byte/moby/daemon/cluster"
 
 //
 // ## Swarmkit integration
@@ -50,12 +50,12 @@ import (
 	"time"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/types/network"
-	types "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/daemon/cluster/controllers/plugin"
-	executorpkg "github.com/docker/docker/daemon/cluster/executor"
-	lncluster "github.com/docker/docker/libnetwork/cluster"
-	"github.com/docker/docker/pkg/stack"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/network"
+	types "github.com/Prakhar-Agarwal-byte/moby/api/types/swarm"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/cluster/controllers/plugin"
+	executorpkg "github.com/Prakhar-Agarwal-byte/moby/daemon/cluster/executor"
+	lncluster "github.com/Prakhar-Agarwal-byte/moby/libnetwork/cluster"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stack"
 	swarmapi "github.com/moby/swarmkit/v2/api"
 	swarmnode "github.com/moby/swarmkit/v2/node"
 	"github.com/pkg/errors"

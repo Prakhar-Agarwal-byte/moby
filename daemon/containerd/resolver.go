@@ -11,10 +11,10 @@ import (
 	"github.com/containerd/containerd/remotes/docker"
 	"github.com/containerd/containerd/version"
 	"github.com/containerd/log"
-	registrytypes "github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/pkg/useragent"
-	"github.com/docker/docker/registry"
+	registrytypes "github.com/Prakhar-Agarwal-byte/moby/api/types/registry"
+	"github.com/Prakhar-Agarwal-byte/moby/dockerversion"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/useragent"
+	"github.com/Prakhar-Agarwal-byte/moby/registry"
 )
 
 func (i *ImageService) newResolverFromAuthConfig(ctx context.Context, authConfig *registrytypes.AuthConfig) (remotes.Resolver, docker.StatusTracker) {

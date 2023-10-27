@@ -1,6 +1,6 @@
 package overlay
 
-//go:generate protoc -I=. -I=../../../../vendor/ --gogo_out=import_path=github.com/docker/docker/libnetwork/drivers/overlay:. overlay.proto
+//go:generate protoc -I=. -I=../../../../vendor/ --gogo_out=import_path=github.com/Prakhar-Agarwal-byte/moby/libnetwork/drivers/overlay:. overlay.proto
 
 import (
 	"context"
@@ -10,8 +10,8 @@ import (
 
 	"github.com/Microsoft/hcsshim"
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/scope"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/driverapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/scope"
 )
 
 const (

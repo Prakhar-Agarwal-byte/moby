@@ -11,8 +11,8 @@ import (
 	"github.com/containerd/containerd/remotes/docker"
 	"github.com/containerd/log"
 	"github.com/distribution/reference"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/dockerversion"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/registry"
+	"github.com/Prakhar-Agarwal-byte/moby/dockerversion"
 	"github.com/pkg/errors"
 )
 

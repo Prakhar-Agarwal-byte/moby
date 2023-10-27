@@ -1,6 +1,6 @@
 //go:build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"context"
@@ -10,14 +10,14 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	containertypes "github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/system"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/config"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/rootless"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/sysinfo"
 	v2runcoptions "github.com/containerd/containerd/runtime/v2/runc/options"
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/system"
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/pkg/rootless"
-	"github.com/docker/docker/pkg/sysinfo"
 	"github.com/pkg/errors"
 	rkclient "github.com/rootless-containers/rootlesskit/pkg/api/client"
 )

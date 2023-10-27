@@ -1,15 +1,15 @@
-package image // import "github.com/docker/docker/api/server/router/image"
+package image // import "github.com/Prakhar-Agarwal-byte/moby/api/server/router/image"
 
 import (
 	"context"
 	"io"
 
 	"github.com/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/image"
-	"github.com/docker/docker/api/types/registry"
-	dockerimage "github.com/docker/docker/image"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/filters"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/image"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/registry"
+	dockerimage "github.com/Prakhar-Agarwal-byte/moby/image"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

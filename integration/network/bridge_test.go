@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	networktypes "github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/versions"
-	ctr "github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/integration/internal/network"
+	networktypes "github.com/Prakhar-Agarwal-byte/moby/api/types/network"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/versions"
+	ctr "github.com/Prakhar-Agarwal-byte/moby/integration/internal/container"
+	"github.com/Prakhar-Agarwal-byte/moby/integration/internal/network"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/skip"
 )

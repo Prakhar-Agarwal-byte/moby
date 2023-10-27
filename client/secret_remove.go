@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/Prakhar-Agarwal-byte/moby/client"
 
 import "context"
 

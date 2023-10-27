@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"context"
@@ -11,14 +11,14 @@ import (
 
 	"github.com/containerd/containerd"
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/api/types/strslice"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/container/stream"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/pools"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	containertypes "github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/events"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/strslice"
+	"github.com/Prakhar-Agarwal-byte/moby/container"
+	"github.com/Prakhar-Agarwal-byte/moby/container/stream"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/pools"
 	"github.com/moby/sys/signal"
 	"github.com/moby/term"
 	specs "github.com/opencontainers/runtime-spec/specs-go"

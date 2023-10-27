@@ -1,10 +1,10 @@
 //go:build !linux
 
-package vfs // import "github.com/docker/docker/daemon/graphdriver/vfs"
+package vfs // import "github.com/Prakhar-Agarwal-byte/moby/daemon/graphdriver/vfs"
 
 import (
-	"github.com/docker/docker/pkg/chrootarchive"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/chrootarchive"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/idtools"
 )
 
 func dirCopy(srcDir, dstDir string) error {

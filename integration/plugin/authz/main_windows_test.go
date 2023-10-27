@@ -1,1 +1,1 @@
-package authz // import "github.com/docker/docker/integration/plugin/authz"
+package authz // import "github.com/Prakhar-Agarwal-byte/moby/integration/plugin/authz"

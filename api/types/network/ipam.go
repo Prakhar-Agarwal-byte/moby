@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/netip"
 
-	"github.com/docker/docker/internal/multierror"
+	"github.com/Prakhar-Agarwal-byte/moby/internal/multierror"
 )
 
 // IPAM represents IP Address Management

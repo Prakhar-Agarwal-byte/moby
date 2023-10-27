@@ -1,11 +1,11 @@
-package stream // import "github.com/docker/docker/container/stream"
+package stream // import "github.com/Prakhar-Agarwal-byte/moby/container/stream"
 
 import (
 	"context"
 	"io"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/pkg/pools"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/pools"
 	"github.com/moby/term"
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"

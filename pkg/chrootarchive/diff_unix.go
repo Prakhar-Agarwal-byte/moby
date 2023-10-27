@@ -1,13 +1,13 @@
 //go:build !windows
 
-package chrootarchive // import "github.com/docker/docker/pkg/chrootarchive"
+package chrootarchive // import "github.com/Prakhar-Agarwal-byte/moby/pkg/chrootarchive"
 
 import (
 	"io"
 	"path/filepath"
 
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
 	"github.com/containerd/containerd/pkg/userns"
-	"github.com/docker/docker/pkg/archive"
 )
 
 // applyLayerHandler parses a diff in the standard layer format from `layer`, and

@@ -4,7 +4,7 @@ import (
 	"net"
 	"net/netip"
 
-	"github.com/docker/docker/libnetwork/ipbits"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipbits"
 )
 
 func toIPNet(p netip.Prefix) *net.IPNet {

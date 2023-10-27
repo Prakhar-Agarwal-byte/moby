@@ -1,4 +1,4 @@
-package plugins // import "github.com/docker/docker/pkg/plugins"
+package plugins // import "github.com/Prakhar-Agarwal-byte/moby/pkg/plugins"
 
 import (
 	"encoding/json"

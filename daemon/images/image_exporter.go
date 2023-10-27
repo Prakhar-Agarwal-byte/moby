@@ -1,12 +1,12 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/Prakhar-Agarwal-byte/moby/daemon/images"
 
 import (
 	"context"
 	"io"
 
+	"github.com/Prakhar-Agarwal-byte/moby/container"
+	"github.com/Prakhar-Agarwal-byte/moby/image/tarexport"
 	"github.com/containerd/log"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/image/tarexport"
 )
 
 // ExportImage exports a list of images to the given output stream. The

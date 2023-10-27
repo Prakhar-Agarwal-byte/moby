@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/Prakhar-Agarwal-byte/moby/distribution"
 
 import (
 	"context"
@@ -10,8 +10,8 @@ import (
 
 	"github.com/containerd/log"
 	"github.com/distribution/reference"
-	"github.com/docker/docker/api/types/registry"
-	registrypkg "github.com/docker/docker/registry"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/registry"
+	registrypkg "github.com/Prakhar-Agarwal-byte/moby/registry"
 )
 
 const secretRegistryToken = "mysecrettoken"

@@ -1,6 +1,6 @@
 //go:build !windows
 
-package platform // import "github.com/docker/docker/pkg/platform"
+package platform // import "github.com/Prakhar-Agarwal-byte/moby/pkg/platform"
 
 import (
 	"golang.org/x/sys/unix"

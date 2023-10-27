@@ -1,10 +1,10 @@
-package build // import "github.com/docker/docker/api/server/router/build"
+package build // import "github.com/Prakhar-Agarwal-byte/moby/api/server/router/build"
 
 import (
 	"context"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/backend"
 )
 
 // Backend abstracts an image builder whose only purpose is to build an image referenced by an imageID.

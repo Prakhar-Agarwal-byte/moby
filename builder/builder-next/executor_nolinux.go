@@ -7,9 +7,9 @@ import (
 	"errors"
 	"runtime"
 
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/libnetwork"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/config"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/idtools"
 	"github.com/moby/buildkit/executor"
 	"github.com/moby/buildkit/executor/oci"
 	resourcetypes "github.com/moby/buildkit/executor/resources/types"

@@ -1,4 +1,4 @@
-package logger // import "github.com/docker/docker/daemon/logger"
+package logger // import "github.com/Prakhar-Agarwal-byte/moby/daemon/logger"
 
 import (
 	"fmt"
@@ -6,11 +6,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/api/types/plugins/logdriver"
-	"github.com/docker/docker/errdefs"
-	getter "github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/plugins/logdriver"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	getter "github.com/Prakhar-Agarwal-byte/moby/pkg/plugingetter"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/plugins"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stringid"
 	"github.com/pkg/errors"
 )
 

@@ -3,8 +3,8 @@ package drvregistry
 import (
 	"testing"
 
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/scope"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/driverapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/scope"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

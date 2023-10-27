@@ -11,13 +11,13 @@ import (
 	"time"
 
 	"github.com/containerd/containerd/plugin"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/requirement"
-	"github.com/docker/docker/testutil/registry"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/swarm"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/versions"
+	"github.com/Prakhar-Agarwal-byte/moby/client"
+	"github.com/Prakhar-Agarwal-byte/moby/integration-cli/cli"
+	"github.com/Prakhar-Agarwal-byte/moby/integration-cli/requirement"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil/registry"
 )
 
 func DaemonIsWindows() bool {

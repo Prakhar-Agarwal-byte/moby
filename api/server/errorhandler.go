@@ -3,10 +3,10 @@ package server
 import (
 	"net/http"
 
-	"github.com/docker/docker/api/server/httpstatus"
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/versions"
+	"github.com/Prakhar-Agarwal-byte/moby/api/server/httpstatus"
+	"github.com/Prakhar-Agarwal-byte/moby/api/server/httputils"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/versions"
 	"github.com/gorilla/mux"
 	"google.golang.org/grpc/status"
 )

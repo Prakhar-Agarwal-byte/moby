@@ -1,4 +1,4 @@
-package termtest // import "github.com/docker/docker/integration/internal/termtest"
+package termtest // import "github.com/Prakhar-Agarwal-byte/moby/integration/internal/termtest"
 
 import (
 	"testing"

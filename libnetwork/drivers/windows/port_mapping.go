@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"net"
 
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/portmapper"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/portmapper"
-	"github.com/docker/docker/libnetwork/types"
 	"github.com/ishidawataru/sctp"
 )
 

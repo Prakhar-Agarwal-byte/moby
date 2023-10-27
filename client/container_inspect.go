@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/Prakhar-Agarwal-byte/moby/client"
 
 import (
 	"bytes"
@@ -7,7 +7,7 @@ import (
 	"io"
 	"net/url"
 
-	"github.com/docker/docker/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
 )
 
 // ContainerInspect returns the container information.

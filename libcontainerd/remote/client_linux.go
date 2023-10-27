@@ -1,4 +1,4 @@
-package remote // import "github.com/docker/docker/libcontainerd/remote"
+package remote // import "github.com/Prakhar-Agarwal-byte/moby/libcontainerd/remote"
 
 import (
 	"context"
@@ -11,8 +11,8 @@ import (
 	"github.com/containerd/containerd/cio"
 	"github.com/containerd/containerd/containers"
 	"github.com/containerd/log"
-	libcontainerdtypes "github.com/docker/docker/libcontainerd/types"
-	"github.com/docker/docker/pkg/idtools"
+	libcontainerdtypes "github.com/Prakhar-Agarwal-byte/moby/libcontainerd/types"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/idtools"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

@@ -1,4 +1,4 @@
-package opts // import "github.com/docker/docker/runconfig/opts"
+package opts // import "github.com/Prakhar-Agarwal-byte/moby/runconfig/opts"
 
 import (
 	"strings"

@@ -1,11 +1,11 @@
-package middleware // import "github.com/docker/docker/api/server/middleware"
+package middleware // import "github.com/Prakhar-Agarwal-byte/moby/api/server/middleware"
 
 import (
 	"context"
 	"net/http"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/types/registry"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/registry"
 )
 
 // CORSMiddleware injects CORS headers to each request

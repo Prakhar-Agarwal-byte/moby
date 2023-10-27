@@ -1,9 +1,9 @@
-package container // import "github.com/docker/docker/daemon/cluster/executor/container"
+package container // import "github.com/Prakhar-Agarwal-byte/moby/daemon/cluster/executor/container"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/api/types/container"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/container"
 	swarmapi "github.com/moby/swarmkit/v2/api"
 	"gotest.tools/v3/assert"
 )

@@ -1,6 +1,6 @@
 //go:build linux
 
-package quota // import "github.com/docker/docker/quota"
+package quota // import "github.com/Prakhar-Agarwal-byte/moby/quota"
 
 import (
 	"io"

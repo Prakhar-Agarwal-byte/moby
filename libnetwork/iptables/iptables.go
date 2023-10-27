@@ -14,8 +14,8 @@ import (
 	"time"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/rootless"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/rootless"
 )
 
 // Action signifies the iptable action.

@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/docker/docker/testutil"
-	"github.com/docker/docker/testutil/registry"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil/registry"
 	"gotest.tools/v3/assert"
 )
 

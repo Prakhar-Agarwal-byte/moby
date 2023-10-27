@@ -1,10 +1,10 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "github.com/Prakhar-Agarwal-byte/moby/registry"
 
 import (
 	"net/url"
 
 	"github.com/docker/distribution/registry/api/errcode"
-	"github.com/docker/docker/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
 	"github.com/pkg/errors"
 )
 

@@ -1,11 +1,11 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/Prakhar-Agarwal-byte/moby/client"
 
 import (
 	"context"
 	"io"
 	"net/http"
 
-	"github.com/docker/docker/api/types/registry"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/registry"
 )
 
 // PluginPush pushes a plugin to a registry

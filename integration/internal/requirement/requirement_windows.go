@@ -1,6 +1,6 @@
 //go:build windows
 
-package requirement // import "github.com/docker/docker/integration/internal/requirement"
+package requirement // import "github.com/Prakhar-Agarwal-byte/moby/integration/internal/requirement"
 
 func overlayFSSupported() bool {
 	return false

@@ -1,9 +1,9 @@
-package idtools // import "github.com/docker/docker/pkg/idtools"
+package idtools // import "github.com/Prakhar-Agarwal-byte/moby/pkg/idtools"
 
 import (
 	"os"
 
-	"github.com/docker/docker/pkg/system"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/system"
 )
 
 const (

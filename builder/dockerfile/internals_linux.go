@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/Prakhar-Agarwal-byte/moby/builder/dockerfile"
 
 import (
 	"context"
@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/idtools"
 	"github.com/moby/sys/symlink"
 	"github.com/moby/sys/user"
 	"github.com/pkg/errors"

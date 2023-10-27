@@ -19,8 +19,8 @@ For example, to list running containers (the equivalent of "docker ps"):
 		"context"
 		"fmt"
 
-		"github.com/docker/docker/api/types/container"
-		"github.com/docker/docker/client"
+		"github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+		"github.com/Prakhar-Agarwal-byte/moby/client"
 	)
 
 	func main() {
@@ -39,7 +39,7 @@ For example, to list running containers (the equivalent of "docker ps"):
 		}
 	}
 */
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/Prakhar-Agarwal-byte/moby/client"
 
 import (
 	"context"
@@ -51,9 +51,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/versions"
+	"github.com/Prakhar-Agarwal-byte/moby/api"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/versions"
 	"github.com/docker/go-connections/sockets"
 	"github.com/pkg/errors"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"

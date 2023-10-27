@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/docker/docker/libnetwork"
-	"github.com/docker/docker/libnetwork/config"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/options"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/config"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/netlabel"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/options"
 )
 
 func main() {
@@ -86,7 +86,7 @@ func main() {
 
 ## Contributing
 
-Want to hack on libnetwork? [Docker's contributions guidelines](https://github.com/docker/docker/blob/master/CONTRIBUTING.md) apply.
+Want to hack on libnetwork? [Docker's contributions guidelines](https://github.com/Prakhar-Agarwal-byte/moby/blob/master/CONTRIBUTING.md) apply.
 
 ## Copyright and license
 Code and documentation copyright 2015 Docker, inc. Code released under the Apache 2.0 license. Docs released under Creative commons.

@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/client/buildkit"
-	"github.com/docker/docker/testutil"
+	"github.com/Prakhar-Agarwal-byte/moby/client/buildkit"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil"
 	moby_buildkit_v1 "github.com/moby/buildkit/api/services/control"
 	"github.com/moby/buildkit/client"
 	"github.com/moby/buildkit/client/llb"

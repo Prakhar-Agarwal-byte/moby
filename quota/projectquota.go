@@ -9,7 +9,7 @@
 //       for both xfs/ext4 for kernel version >= v4.5
 //
 
-package quota // import "github.com/docker/docker/quota"
+package quota // import "github.com/Prakhar-Agarwal-byte/moby/quota"
 
 /*
 #include <stdlib.h>

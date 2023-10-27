@@ -1,12 +1,12 @@
-package cluster // import "github.com/docker/docker/daemon/cluster"
+package cluster // import "github.com/Prakhar-Agarwal-byte/moby/daemon/cluster"
 
 import (
 	"context"
 	"fmt"
 
-	volumetypes "github.com/docker/docker/api/types/volume"
-	"github.com/docker/docker/daemon/cluster/convert"
-	"github.com/docker/docker/errdefs"
+	volumetypes "github.com/Prakhar-Agarwal-byte/moby/api/types/volume"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/cluster/convert"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
 	swarmapi "github.com/moby/swarmkit/v2/api"
 	"google.golang.org/grpc"
 )

@@ -19,8 +19,8 @@ ARG APT_MIRROR
 RUN test -n "$APT_MIRROR" && sed -ri "s#(httpredir|deb|security).debian.org#${APT_MIRROR}#g" /etc/apt/sources.list || true
 
 # Compile and runtime deps
-# https://github.com/docker/docker/blob/master/project/PACKAGERS.md#build-dependencies
-# https://github.com/docker/docker/blob/master/project/PACKAGERS.md#runtime-dependencies
+# https://github.com/Prakhar-Agarwal-byte/moby/blob/master/project/PACKAGERS.md#build-dependencies
+# https://github.com/Prakhar-Agarwal-byte/moby/blob/master/project/PACKAGERS.md#runtime-dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		build-essential \
 		curl \

@@ -1,4 +1,4 @@
-package graphdriver // import "github.com/docker/docker/daemon/graphdriver"
+package graphdriver // import "github.com/Prakhar-Agarwal-byte/moby/daemon/graphdriver"
 
 import (
 	"context"
@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/chrootarchive"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/chrootarchive"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/idtools"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/ioutils"
 )
 
 // ApplyUncompressedLayer defines the unpack method used by the graph

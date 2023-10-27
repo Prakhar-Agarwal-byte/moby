@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/Prakhar-Agarwal-byte/moby/integration/container"
 
 import (
 	"bytes"
@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/daemon/logger/jsonfilelog"
-	"github.com/docker/docker/daemon/logger/local"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/integration/internal/termtest"
-	"github.com/docker/docker/pkg/stdcopy"
+	containertypes "github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/logger/jsonfilelog"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/logger/local"
+	"github.com/Prakhar-Agarwal-byte/moby/integration/internal/container"
+	"github.com/Prakhar-Agarwal-byte/moby/integration/internal/termtest"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stdcopy"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/poll"

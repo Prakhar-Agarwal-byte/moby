@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"os"
@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/daemon/images"
-	"github.com/docker/docker/libnetwork"
-	"github.com/docker/docker/registry"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/config"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/images"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork"
+	"github.com/Prakhar-Agarwal-byte/moby/registry"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

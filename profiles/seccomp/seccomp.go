@@ -1,4 +1,4 @@
-package seccomp // import "github.com/docker/docker/profiles/seccomp"
+package seccomp // import "github.com/Prakhar-Agarwal-byte/moby/profiles/seccomp"
 
 import (
 	"encoding/json"

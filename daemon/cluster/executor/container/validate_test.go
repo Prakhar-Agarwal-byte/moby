@@ -1,12 +1,12 @@
-package container // import "github.com/docker/docker/daemon/cluster/executor/container"
+package container // import "github.com/Prakhar-Agarwal-byte/moby/daemon/cluster/executor/container"
 
 import (
 	"os"
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/daemon"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stringid"
 	"github.com/moby/swarmkit/v2/api"
 )
 

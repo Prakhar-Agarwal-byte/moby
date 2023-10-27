@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/cli/build"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/Prakhar-Agarwal-byte/moby/integration-cli/cli"
+	"github.com/Prakhar-Agarwal-byte/moby/integration-cli/cli/build"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stringid"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/icmd"
 	"gotest.tools/v3/skip"
@@ -150,7 +150,7 @@ func (s *DockerCLIRmiSuite) TestRmiImgIDForce(c *testing.T) {
 	}
 }
 
-// See https://github.com/docker/docker/issues/14116
+// See https://github.com/Prakhar-Agarwal-byte/moby/issues/14116
 func (s *DockerCLIRmiSuite) TestRmiImageIDForceWithRunningContainersAndMultipleTags(c *testing.T) {
 	dockerfile := "FROM busybox\nRUN echo test 14116\n"
 	buildImageSuccessfully(c, "test-14116", build.WithDockerfile(dockerfile))

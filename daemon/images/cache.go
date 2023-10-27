@@ -1,12 +1,12 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/Prakhar-Agarwal-byte/moby/daemon/images"
 
 import (
 	"context"
 
 	"github.com/containerd/log"
-	imagetypes "github.com/docker/docker/api/types/image"
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/image/cache"
+	imagetypes "github.com/Prakhar-Agarwal-byte/moby/api/types/image"
+	"github.com/Prakhar-Agarwal-byte/moby/builder"
+	"github.com/Prakhar-Agarwal-byte/moby/image/cache"
 	"github.com/pkg/errors"
 )
 

@@ -1,11 +1,11 @@
-package distribution // import "github.com/docker/docker/api/server/router/distribution"
+package distribution // import "github.com/Prakhar-Agarwal-byte/moby/api/server/router/distribution"
 
 import (
 	"context"
 
 	"github.com/distribution/reference"
 	"github.com/docker/distribution"
-	"github.com/docker/docker/api/types/registry"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/registry"
 )
 
 // Backend is all the methods that need to be implemented

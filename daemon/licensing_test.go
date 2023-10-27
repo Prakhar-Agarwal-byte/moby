@@ -1,10 +1,10 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/api/types/system"
-	"github.com/docker/docker/dockerversion"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/system"
+	"github.com/Prakhar-Agarwal-byte/moby/dockerversion"
 	"gotest.tools/v3/assert"
 )
 

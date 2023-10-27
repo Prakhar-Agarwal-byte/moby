@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/docker/docker/api/types/filters"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/filters"
 	bkconfig "github.com/moby/buildkit/cmd/buildkitd/config"
 )
 

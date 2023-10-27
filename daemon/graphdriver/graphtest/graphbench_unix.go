@@ -1,6 +1,6 @@
 //go:build linux || freebsd
 
-package graphtest // import "github.com/docker/docker/daemon/graphdriver/graphtest"
+package graphtest // import "github.com/Prakhar-Agarwal-byte/moby/daemon/graphdriver/graphtest"
 
 import (
 	"io"
@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stringid"
 	"gotest.tools/v3/assert"
 )
 

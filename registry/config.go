@@ -1,4 +1,4 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "github.com/Prakhar-Agarwal-byte/moby/registry"
 
 import (
 	"context"
@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/registry"
 	"github.com/containerd/log"
 	"github.com/distribution/reference"
-	"github.com/docker/docker/api/types/registry"
 )
 
 // ServiceOptions holds command line options.

@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/Prakhar-Agarwal-byte/moby/distribution"
 
 import (
 	"context"
@@ -18,7 +18,7 @@ import (
 	"github.com/docker/distribution/manifest/manifestlist"
 	"github.com/docker/distribution/manifest/schema2"
 	"github.com/docker/distribution/registry/client/transport"
-	"github.com/docker/docker/image"
+	"github.com/Prakhar-Agarwal-byte/moby/image"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

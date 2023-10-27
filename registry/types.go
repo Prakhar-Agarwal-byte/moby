@@ -1,8 +1,8 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "github.com/Prakhar-Agarwal-byte/moby/registry"
 
 import (
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/registry"
 	"github.com/distribution/reference"
-	"github.com/docker/docker/api/types/registry"
 )
 
 // APIVersion is an integral representation of an API version (presently

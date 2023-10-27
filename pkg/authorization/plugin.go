@@ -1,10 +1,10 @@
-package authorization // import "github.com/docker/docker/pkg/authorization"
+package authorization // import "github.com/Prakhar-Agarwal-byte/moby/pkg/authorization"
 
 import (
 	"sync"
 
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/plugingetter"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/plugins"
 )
 
 // Plugin allows third party plugins to authorize requests and responses

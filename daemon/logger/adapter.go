@@ -1,4 +1,4 @@
-package logger // import "github.com/docker/docker/daemon/logger"
+package logger // import "github.com/Prakhar-Agarwal-byte/moby/daemon/logger"
 
 import (
 	"context"
@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/types/plugins/logdriver"
-	"github.com/docker/docker/pkg/plugingetter"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/plugins/logdriver"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/plugingetter"
 	"github.com/pkg/errors"
 )
 

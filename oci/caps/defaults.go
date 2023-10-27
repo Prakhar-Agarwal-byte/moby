@@ -1,4 +1,4 @@
-package caps // import "github.com/docker/docker/oci/caps"
+package caps // import "github.com/Prakhar-Agarwal-byte/moby/oci/caps"
 
 // DefaultCapabilities returns a Linux kernel default capabilities
 func DefaultCapabilities() []string {

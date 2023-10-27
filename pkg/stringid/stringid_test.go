@@ -1,4 +1,4 @@
-package stringid // import "github.com/docker/docker/pkg/stringid"
+package stringid // import "github.com/Prakhar-Agarwal-byte/moby/pkg/stringid"
 
 import (
 	"strings"

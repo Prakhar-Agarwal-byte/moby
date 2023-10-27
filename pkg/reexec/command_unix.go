@@ -1,6 +1,6 @@
 //go:build freebsd || darwin
 
-package reexec // import "github.com/docker/docker/pkg/reexec"
+package reexec // import "github.com/Prakhar-Agarwal-byte/moby/pkg/reexec"
 
 import (
 	"os/exec"

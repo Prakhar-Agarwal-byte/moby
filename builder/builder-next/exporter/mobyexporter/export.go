@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/Prakhar-Agarwal-byte/moby/image"
+	"github.com/Prakhar-Agarwal-byte/moby/layer"
 	distref "github.com/distribution/reference"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
 	"github.com/moby/buildkit/exporter"
 	"github.com/moby/buildkit/exporter/containerimage/exptypes"
 	"github.com/opencontainers/go-digest"

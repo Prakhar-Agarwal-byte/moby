@@ -1,4 +1,4 @@
-package transport // import "github.com/docker/docker/pkg/plugins/transport"
+package transport // import "github.com/Prakhar-Agarwal-byte/moby/pkg/plugins/transport"
 
 import (
 	"io"

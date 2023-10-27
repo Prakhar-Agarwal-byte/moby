@@ -3,9 +3,9 @@ package image
 import (
 	"testing"
 
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/testutil/environment"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/filters"
+	"github.com/Prakhar-Agarwal-byte/moby/integration/internal/container"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil/environment"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/skip"

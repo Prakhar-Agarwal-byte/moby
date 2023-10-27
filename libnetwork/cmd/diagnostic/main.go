@@ -13,9 +13,9 @@ import (
 	"strings"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork"
-	"github.com/docker/docker/libnetwork/diagnostic"
-	"github.com/docker/docker/libnetwork/drivers/overlay"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/diagnostic"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/drivers/overlay"
 )
 
 const (
@@ -56,7 +56,7 @@ func main() {
 
 	if _, ok := os.LookupEnv("DIND_CLIENT"); !ok && *joinPtr {
 		log.G(context.TODO()).Fatal("you are not using the client in docker in docker mode, the use of the -a flag can be disruptive, " +
-			"please remove it (doc:https://github.com/docker/docker/libnetwork/blob/master/cmd/diagnostic/README.md)")
+			"please remove it (doc:https://github.com/Prakhar-Agarwal-byte/moby/libnetwork/blob/master/cmd/diagnostic/README.md)")
 	}
 
 	log.G(context.TODO()).Infof("Connecting to %s:%d checking ready", *ipPtr, *portPtr)

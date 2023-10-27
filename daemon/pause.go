@@ -1,12 +1,12 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"context"
 	"fmt"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/container"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/events"
+	"github.com/Prakhar-Agarwal-byte/moby/container"
 )
 
 // ContainerPause pauses a container

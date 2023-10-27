@@ -8,9 +8,9 @@ import (
 	"net"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/netutils"
-	"github.com/docker/docker/libnetwork/ns"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/driverapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/netutils"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ns"
 )
 
 // Join method is invoked when a Sandbox is attached to an endpoint.

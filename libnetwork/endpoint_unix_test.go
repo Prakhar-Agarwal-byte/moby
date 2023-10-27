@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/docker/internal/testutils/netnsutils"
-	"github.com/docker/docker/libnetwork/ipamapi"
-	"github.com/docker/docker/libnetwork/osl"
+	"github.com/Prakhar-Agarwal-byte/moby/internal/testutils/netnsutils"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipamapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/osl"
 )
 
 func TestHostsEntries(t *testing.T) {

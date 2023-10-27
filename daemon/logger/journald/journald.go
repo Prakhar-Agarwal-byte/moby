@@ -1,6 +1,6 @@
 //go:build linux
 
-package journald // import "github.com/docker/docker/daemon/logger/journald"
+package journald // import "github.com/Prakhar-Agarwal-byte/moby/daemon/logger/journald"
 
 import (
 	"fmt"
@@ -11,9 +11,9 @@ import (
 
 	"github.com/coreos/go-systemd/v22/journal"
 
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/daemon/logger/loggerutils"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/logger"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/logger/loggerutils"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stringid"
 )
 
 const name = "journald"

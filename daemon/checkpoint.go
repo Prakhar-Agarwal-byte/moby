@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"context"
@@ -6,9 +6,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/api/types/checkpoint"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/daemon/names"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/checkpoint"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/events"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/names"
 )
 
 var (

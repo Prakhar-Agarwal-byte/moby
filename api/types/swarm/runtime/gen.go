@@ -1,3 +1,3 @@
-//go:generate protoc --gogofaster_out=import_path=github.com/docker/docker/api/types/swarm/runtime:. plugin.proto
+//go:generate protoc --gogofaster_out=import_path=github.com/Prakhar-Agarwal-byte/moby/api/types/swarm/runtime:. plugin.proto
 
-package runtime // import "github.com/docker/docker/api/types/swarm/runtime"
+package runtime // import "github.com/Prakhar-Agarwal-byte/moby/api/types/swarm/runtime"

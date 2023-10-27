@@ -1,5 +1,5 @@
 // Package awslogs provides the logdriver for forwarding container logs to Amazon CloudWatch Logs
-package awslogs // import "github.com/docker/docker/daemon/logger/awslogs"
+package awslogs // import "github.com/Prakhar-Agarwal-byte/moby/daemon/logger/awslogs"
 
 import (
 	"context"
@@ -23,9 +23,9 @@ import (
 	smithymiddleware "github.com/aws/smithy-go/middleware"
 	smithyhttp "github.com/aws/smithy-go/transport/http"
 	"github.com/containerd/log"
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/daemon/logger/loggerutils"
-	"github.com/docker/docker/dockerversion"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/logger"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/logger/loggerutils"
+	"github.com/Prakhar-Agarwal-byte/moby/dockerversion"
 	"github.com/pkg/errors"
 )
 

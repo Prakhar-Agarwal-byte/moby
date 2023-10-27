@@ -1,4 +1,4 @@
-package versions // import "github.com/docker/docker/api/types/versions"
+package versions // import "github.com/Prakhar-Agarwal-byte/moby/api/types/versions"
 
 import (
 	"testing"

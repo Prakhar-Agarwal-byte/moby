@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/docker/docker/pkg/sysinfo"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/sysinfo"
 )
 
 var sysInfo *sysinfo.SysInfo

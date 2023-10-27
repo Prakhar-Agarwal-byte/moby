@@ -1,4 +1,4 @@
-package loggerutils // import "github.com/docker/docker/daemon/logger/loggerutils"
+package loggerutils // import "github.com/Prakhar-Agarwal-byte/moby/daemon/logger/loggerutils"
 
 import (
 	"compress/gzip"
@@ -14,8 +14,8 @@ import (
 	"time"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/pkg/pools"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/logger"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/pools"
 	"github.com/pkg/errors"
 )
 

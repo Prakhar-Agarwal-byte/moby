@@ -1,6 +1,6 @@
 //go:build !linux
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 func ensureDefaultAppArmorProfile() error {
 	return nil

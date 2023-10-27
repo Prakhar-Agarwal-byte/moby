@@ -1,4 +1,4 @@
-package swarm // import "github.com/docker/docker/api/types/swarm"
+package swarm // import "github.com/Prakhar-Agarwal-byte/moby/api/types/swarm"
 
 import "os"
 

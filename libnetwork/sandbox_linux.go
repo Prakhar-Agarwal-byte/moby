@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/osl"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/osl"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
 )
 
 func releaseOSSboxResources(ns *osl.Namespace, ep *Endpoint) {

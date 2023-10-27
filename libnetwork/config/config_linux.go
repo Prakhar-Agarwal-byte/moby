@@ -1,6 +1,6 @@
 package config
 
-import "github.com/docker/docker/libnetwork/osl"
+import "github.com/Prakhar-Agarwal-byte/moby/libnetwork/osl"
 
 // optionExecRoot on Linux sets both the controller's ExecRoot and osl.basePath.
 func optionExecRoot(execRoot string) Option {

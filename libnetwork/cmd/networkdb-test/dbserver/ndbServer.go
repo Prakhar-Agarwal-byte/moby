@@ -9,10 +9,10 @@ import (
 	"os"
 	"strconv"
 
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/cmd/networkdb-test/dummyclient"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/diagnostic"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/networkdb"
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/cmd/networkdb-test/dummyclient"
-	"github.com/docker/docker/libnetwork/diagnostic"
-	"github.com/docker/docker/libnetwork/networkdb"
 )
 
 var (

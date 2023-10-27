@@ -1,9 +1,9 @@
-package server // import "github.com/docker/docker/api/server"
+package server // import "github.com/Prakhar-Agarwal-byte/moby/api/server"
 
 import (
+	"github.com/Prakhar-Agarwal-byte/moby/api/server/httputils"
+	"github.com/Prakhar-Agarwal-byte/moby/api/server/middleware"
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/server/middleware"
 )
 
 // handlerWithGlobalMiddlewares wraps the handler function for a request with

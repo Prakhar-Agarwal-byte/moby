@@ -1,4 +1,4 @@
-package supervisor // import "github.com/docker/docker/libcontainerd/supervisor"
+package supervisor // import "github.com/Prakhar-Agarwal-byte/moby/libcontainerd/supervisor"
 
 import (
 	"context"
@@ -14,9 +14,9 @@ import (
 	"github.com/containerd/containerd/services/server/config"
 	"github.com/containerd/containerd/sys"
 	"github.com/containerd/log"
-	"github.com/docker/docker/pkg/pidfile"
-	"github.com/docker/docker/pkg/process"
-	"github.com/docker/docker/pkg/system"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/pidfile"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/process"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/system"
 	"github.com/pelletier/go-toml"
 	"github.com/pkg/errors"
 	"go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc"

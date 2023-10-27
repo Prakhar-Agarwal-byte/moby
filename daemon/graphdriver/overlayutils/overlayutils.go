@@ -1,6 +1,6 @@
 //go:build linux
 
-package overlayutils // import "github.com/docker/docker/daemon/graphdriver/overlayutils"
+package overlayutils // import "github.com/Prakhar-Agarwal-byte/moby/daemon/graphdriver/overlayutils"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 
 	"github.com/containerd/containerd/pkg/userns"
 	"github.com/containerd/log"
-	"github.com/docker/docker/daemon/graphdriver"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/graphdriver"
 	"github.com/pkg/errors"
 	"golang.org/x/sys/unix"
 )

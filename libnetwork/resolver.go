@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/types"
 	"github.com/miekg/dns"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"

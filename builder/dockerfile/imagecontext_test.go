@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/Prakhar-Agarwal-byte/moby/builder/dockerfile"
 
 import (
 	"context"
@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/containerd/containerd/platforms"
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/image"
+	"github.com/Prakhar-Agarwal-byte/moby/builder"
+	"github.com/Prakhar-Agarwal-byte/moby/image"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"gotest.tools/v3/assert"
 )

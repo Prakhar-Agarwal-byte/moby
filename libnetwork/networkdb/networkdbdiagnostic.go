@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/diagnostic"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/internal/caller"
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/diagnostic"
-	"github.com/docker/docker/libnetwork/internal/caller"
 )
 
 const (

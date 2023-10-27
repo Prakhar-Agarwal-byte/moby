@@ -2,7 +2,7 @@
 
 package libnetwork
 
-import "github.com/docker/docker/libnetwork/osl"
+import "github.com/Prakhar-Agarwal-byte/moby/libnetwork/osl"
 
 func releaseOSSboxResources(*osl.Namespace, *Endpoint) {}
 

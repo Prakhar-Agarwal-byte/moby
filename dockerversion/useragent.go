@@ -1,4 +1,4 @@
-package dockerversion // import "github.com/docker/docker/dockerversion"
+package dockerversion // import "github.com/Prakhar-Agarwal-byte/moby/dockerversion"
 
 import (
 	"context"
@@ -6,8 +6,8 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/docker/docker/pkg/parsers/kernel"
-	"github.com/docker/docker/pkg/useragent"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/parsers/kernel"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/useragent"
 )
 
 // UAStringKey is used as key type for user-agent string in net/context struct

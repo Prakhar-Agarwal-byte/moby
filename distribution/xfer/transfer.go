@@ -1,11 +1,11 @@
-package xfer // import "github.com/docker/docker/distribution/xfer"
+package xfer // import "github.com/Prakhar-Agarwal-byte/moby/distribution/xfer"
 
 import (
 	"context"
 	"runtime"
 	"sync"
 
-	"github.com/docker/docker/pkg/progress"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/progress"
 	"github.com/pkg/errors"
 )
 

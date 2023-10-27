@@ -1,7 +1,7 @@
 // Package local provides the default implementation for volumes. It
 // is used to mount data volume containers and directories local to
 // the host server.
-package local // import "github.com/docker/docker/volume/local"
+package local // import "github.com/Prakhar-Agarwal-byte/moby/volume/local"
 
 import (
 	"context"
@@ -13,11 +13,11 @@ import (
 	"sync"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/daemon/names"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/quota"
-	"github.com/docker/docker/volume"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/names"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/idtools"
+	"github.com/Prakhar-Agarwal-byte/moby/quota"
+	"github.com/Prakhar-Agarwal-byte/moby/volume"
 	"github.com/pkg/errors"
 )
 

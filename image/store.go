@@ -1,4 +1,4 @@
-package image // import "github.com/docker/docker/image"
+package image // import "github.com/Prakhar-Agarwal-byte/moby/image"
 
 import (
 	"context"
@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/layer"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/layer"
 	"github.com/opencontainers/go-digest"
 	"github.com/opencontainers/go-digest/digestset"
 	"github.com/pkg/errors"

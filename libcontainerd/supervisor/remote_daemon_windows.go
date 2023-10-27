@@ -1,9 +1,9 @@
-package supervisor // import "github.com/docker/docker/libcontainerd/supervisor"
+package supervisor // import "github.com/Prakhar-Agarwal-byte/moby/libcontainerd/supervisor"
 
 import (
 	"os"
 
-	"github.com/docker/docker/pkg/process"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/process"
 )
 
 const (

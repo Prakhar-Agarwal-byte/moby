@@ -1,4 +1,4 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/Prakhar-Agarwal-byte/moby/daemon/images"
 
 import (
 	"context"
@@ -9,13 +9,13 @@ import (
 	"github.com/containerd/containerd/namespaces"
 	"github.com/containerd/log"
 	"github.com/distribution/reference"
-	imagetypes "github.com/docker/docker/api/types/image"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/distribution"
-	progressutils "github.com/docker/docker/distribution/utils"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/progress"
-	"github.com/docker/docker/pkg/streamformatter"
+	imagetypes "github.com/Prakhar-Agarwal-byte/moby/api/types/image"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/registry"
+	"github.com/Prakhar-Agarwal-byte/moby/distribution"
+	progressutils "github.com/Prakhar-Agarwal-byte/moby/distribution/utils"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/progress"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/streamformatter"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 )
@@ -41,7 +41,7 @@ func (i *ImageService) PullImage(ctx context.Context, ref reference.Named, platf
 		img, err := i.GetImage(ctx, ref.String(), imagetypes.GetImageOpts{Platform: platform})
 
 		// Note that this is a special case where GetImage returns both an image
-		// and an error: https://github.com/docker/docker/blob/v20.10.7/daemon/images/image.go#L175-L183
+		// and an error: https://github.com/Prakhar-Agarwal-byte/moby/blob/v20.10.7/daemon/images/image.go#L175-L183
 		if errdefs.IsNotFound(err) && img != nil {
 			po := streamformatter.NewJSONProgressOutput(outStream, false)
 			progress.Messagef(po, "", `WARNING: %s`, err.Error())

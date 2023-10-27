@@ -1,4 +1,4 @@
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/Prakhar-Agarwal-byte/moby/plugin"
 
 import (
 	"io"
@@ -8,11 +8,11 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/stringid"
-	v2 "github.com/docker/docker/plugin/v2"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/events"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/containerfs"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stringid"
+	v2 "github.com/Prakhar-Agarwal-byte/moby/plugin/v2"
 	"github.com/moby/sys/mount"
 	"github.com/moby/sys/mountinfo"
 	specs "github.com/opencontainers/runtime-spec/specs-go"

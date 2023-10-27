@@ -1,1 +1,1 @@
-package plugin // import "github.com/docker/docker/integration/plugin"
+package plugin // import "github.com/Prakhar-Agarwal-byte/moby/integration/plugin"

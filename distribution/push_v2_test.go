@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/Prakhar-Agarwal-byte/moby/distribution"
 
 import (
 	"context"
@@ -10,12 +10,12 @@ import (
 	"github.com/docker/distribution"
 	"github.com/docker/distribution/manifest/schema2"
 	"github.com/docker/distribution/registry/api/errcode"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/distribution/metadata"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/progress"
-	refstore "github.com/docker/docker/reference"
-	registrypkg "github.com/docker/docker/registry"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/registry"
+	"github.com/Prakhar-Agarwal-byte/moby/distribution/metadata"
+	"github.com/Prakhar-Agarwal-byte/moby/layer"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/progress"
+	refstore "github.com/Prakhar-Agarwal-byte/moby/reference"
+	registrypkg "github.com/Prakhar-Agarwal-byte/moby/registry"
 	"github.com/opencontainers/go-digest"
 )
 

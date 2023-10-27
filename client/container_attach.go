@@ -1,12 +1,12 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/Prakhar-Agarwal-byte/moby/client"
 
 import (
 	"context"
 	"net/http"
 	"net/url"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/container"
 )
 
 // ContainerAttach attaches a connection to a container in the server.
@@ -31,7 +31,7 @@ import (
 // SIZE1, SIZE2, SIZE3, and SIZE4 are four bytes of uint32 encoded as big endian.
 // This is the size of OUTPUT.
 //
-// You can use github.com/docker/docker/pkg/stdcopy.StdCopy to demultiplex this
+// You can use github.com/Prakhar-Agarwal-byte/moby/pkg/stdcopy.StdCopy to demultiplex this
 // stream.
 func (cli *Client) ContainerAttach(ctx context.Context, container string, options container.AttachOptions) (types.HijackedResponse, error) {
 	query := url.Values{}

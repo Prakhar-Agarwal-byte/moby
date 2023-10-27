@@ -1,4 +1,4 @@
-package supervisor // import "github.com/docker/docker/libcontainerd/supervisor"
+package supervisor // import "github.com/Prakhar-Agarwal-byte/moby/libcontainerd/supervisor"
 
 import (
 	"os"
@@ -6,8 +6,8 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/process"
 	"github.com/containerd/containerd/defaults"
-	"github.com/docker/docker/pkg/process"
 )
 
 const (

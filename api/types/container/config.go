@@ -1,11 +1,11 @@
-package container // import "github.com/docker/docker/api/types/container"
+package container // import "github.com/Prakhar-Agarwal-byte/moby/api/types/container"
 
 import (
 	"io"
 	"time"
 
-	"github.com/docker/docker/api/types/strslice"
-	dockerspec "github.com/docker/docker/image/spec/specs-go/v1"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/strslice"
+	dockerspec "github.com/Prakhar-Agarwal-byte/moby/image/spec/specs-go/v1"
 	"github.com/docker/go-connections/nat"
 )
 

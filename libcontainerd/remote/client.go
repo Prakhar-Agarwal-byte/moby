@@ -1,4 +1,4 @@
-package remote // import "github.com/docker/docker/libcontainerd/remote"
+package remote // import "github.com/Prakhar-Agarwal-byte/moby/libcontainerd/remote"
 
 import (
 	"context"
@@ -25,10 +25,10 @@ import (
 	v2runcoptions "github.com/containerd/containerd/runtime/v2/runc/options"
 	"github.com/containerd/log"
 	"github.com/containerd/typeurl/v2"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/libcontainerd/queue"
-	libcontainerdtypes "github.com/docker/docker/libcontainerd/types"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/libcontainerd/queue"
+	libcontainerdtypes "github.com/Prakhar-Agarwal-byte/moby/libcontainerd/types"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/ioutils"
 	"github.com/hashicorp/go-multierror"
 	"github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"

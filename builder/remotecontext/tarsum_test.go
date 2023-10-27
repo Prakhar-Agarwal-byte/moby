@@ -1,13 +1,13 @@
-package remotecontext // import "github.com/docker/docker/builder/remotecontext"
+package remotecontext // import "github.com/Prakhar-Agarwal-byte/moby/builder/remotecontext"
 
 import (
 	"os"
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/Prakhar-Agarwal-byte/moby/builder"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/reexec"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/skip"
 )

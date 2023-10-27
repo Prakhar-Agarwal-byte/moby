@@ -1,10 +1,10 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"context"
 
 	"github.com/containerd/log"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
+	swarmtypes "github.com/Prakhar-Agarwal-byte/moby/api/types/swarm"
 )
 
 // SetContainerSecretReferences sets the container secret references needed

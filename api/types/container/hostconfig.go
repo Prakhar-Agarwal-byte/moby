@@ -1,12 +1,12 @@
-package container // import "github.com/docker/docker/api/types/container"
+package container // import "github.com/Prakhar-Agarwal-byte/moby/api/types/container"
 
 import (
 	"fmt"
 	"strings"
 
-	"github.com/docker/docker/api/types/blkiodev"
-	"github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/api/types/strslice"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/blkiodev"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/mount"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/strslice"
 	"github.com/docker/go-connections/nat"
 	units "github.com/docker/go-units"
 )

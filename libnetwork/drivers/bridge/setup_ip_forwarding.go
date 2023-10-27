@@ -8,7 +8,7 @@ import (
 	"os"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/iptables"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/iptables"
 )
 
 const (

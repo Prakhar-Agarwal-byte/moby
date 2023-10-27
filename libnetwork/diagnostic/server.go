@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/internal/caller"
-	"github.com/docker/docker/pkg/stack"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/internal/caller"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stack"
 )
 
 // HTTPHandlerFunc TODO

@@ -1,4 +1,4 @@
-package image // import "github.com/docker/docker/integration/image"
+package image // import "github.com/Prakhar-Agarwal-byte/moby/integration/image"
 
 import (
 	"fmt"

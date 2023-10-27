@@ -9,13 +9,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/cli/build"
-	"github.com/docker/docker/testutil"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/mount"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/network"
+	"github.com/Prakhar-Agarwal-byte/moby/client"
+	"github.com/Prakhar-Agarwal-byte/moby/integration-cli/cli"
+	"github.com/Prakhar-Agarwal-byte/moby/integration-cli/cli/build"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/icmd"
 )
@@ -408,7 +408,7 @@ func (s *DockerCLIVolumeSuite) TestVolumeCLIRmForce(c *testing.T) {
 }
 
 // TestVolumeCLIRmForceInUse verifies that repeated `docker volume rm -f` calls does not remove a volume
-// if it is in use. Test case for https://github.com/docker/docker/issues/31446
+// if it is in use. Test case for https://github.com/Prakhar-Agarwal-byte/moby/issues/31446
 func (s *DockerCLIVolumeSuite) TestVolumeCLIRmForceInUse(c *testing.T) {
 	const name = "testvolume"
 	id := cli.DockerCmd(c, "volume", "create", name).Stdout()

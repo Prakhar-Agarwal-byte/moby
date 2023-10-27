@@ -3,9 +3,9 @@ package bridge
 import (
 	"testing"
 
-	"github.com/docker/docker/internal/testutils/netnsutils"
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/netlabel"
+	"github.com/Prakhar-Agarwal-byte/moby/internal/testutils/netnsutils"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/driverapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/netlabel"
 	"github.com/vishvananda/netlink"
 )
 

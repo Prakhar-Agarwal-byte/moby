@@ -1,12 +1,12 @@
 //go:build !windows && !wasip1
 
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
 
 import (
 	"os"
 	"syscall"
 
-	"github.com/docker/docker/pkg/system"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/system"
 	"golang.org/x/sys/unix"
 )
 

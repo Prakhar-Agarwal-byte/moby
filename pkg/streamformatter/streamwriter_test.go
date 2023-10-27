@@ -1,4 +1,4 @@
-package streamformatter // import "github.com/docker/docker/pkg/streamformatter"
+package streamformatter // import "github.com/Prakhar-Agarwal-byte/moby/pkg/streamformatter"
 
 import (
 	"bytes"

@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"context"
@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"strconv"
 
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/events"
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/types/events"
 	"github.com/hashicorp/go-multierror"
 	"github.com/mitchellh/copystructure"
 
-	"github.com/docker/docker/daemon/config"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/config"
 )
 
 // reloadTxn is used to defer side effects of a config reload.

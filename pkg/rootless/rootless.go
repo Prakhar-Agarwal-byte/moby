@@ -1,4 +1,4 @@
-package rootless // import "github.com/docker/docker/pkg/rootless"
+package rootless // import "github.com/Prakhar-Agarwal-byte/moby/pkg/rootless"
 
 import "os"
 

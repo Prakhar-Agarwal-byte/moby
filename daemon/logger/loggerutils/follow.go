@@ -1,4 +1,4 @@
-package loggerutils // import "github.com/docker/docker/daemon/logger/loggerutils"
+package loggerutils // import "github.com/Prakhar-Agarwal-byte/moby/daemon/logger/loggerutils"
 
 import (
 	"context"
@@ -7,7 +7,7 @@ import (
 	"os"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/daemon/logger"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/logger"
 	"github.com/pkg/errors"
 )
 

@@ -1,16 +1,16 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/Prakhar-Agarwal-byte/moby/daemon/images"
 
 import (
 	"context"
 	"io"
 	"time"
 
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/registry"
+	"github.com/Prakhar-Agarwal-byte/moby/distribution"
+	progressutils "github.com/Prakhar-Agarwal-byte/moby/distribution/utils"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/progress"
 	"github.com/distribution/reference"
 	"github.com/docker/distribution/manifest/schema2"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/distribution"
-	progressutils "github.com/docker/docker/distribution/utils"
-	"github.com/docker/docker/pkg/progress"
 )
 
 // PushImage initiates a push operation on the repository named localName.

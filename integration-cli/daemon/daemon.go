@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/integration-cli/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/integration-cli/daemon"
 
 import (
 	"context"
@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/testutil/daemon"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil/daemon"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/icmd"

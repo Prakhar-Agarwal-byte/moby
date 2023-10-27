@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/libnetwork/discoverapi"
-	store "github.com/docker/docker/libnetwork/internal/kvstore"
-	"github.com/docker/docker/libnetwork/internal/kvstore/boltdb"
-	"github.com/docker/docker/libnetwork/scope"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/discoverapi"
+	store "github.com/Prakhar-Agarwal-byte/moby/libnetwork/internal/kvstore"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/internal/kvstore/boltdb"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/scope"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
 )
 
 // ErrKeyModified is raised for an atomic update when the update is working on a stale state

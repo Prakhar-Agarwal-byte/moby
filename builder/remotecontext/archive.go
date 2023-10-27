@@ -1,16 +1,16 @@
-package remotecontext // import "github.com/docker/docker/builder/remotecontext"
+package remotecontext // import "github.com/Prakhar-Agarwal-byte/moby/builder/remotecontext"
 
 import (
 	"io"
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/chrootarchive"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/longpath"
-	"github.com/docker/docker/pkg/tarsum"
+	"github.com/Prakhar-Agarwal-byte/moby/builder"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/chrootarchive"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/containerfs"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/longpath"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/tarsum"
 	"github.com/pkg/errors"
 )
 

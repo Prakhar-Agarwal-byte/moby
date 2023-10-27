@@ -1,4 +1,4 @@
-package libcontainerd // import "github.com/docker/docker/libcontainerd"
+package libcontainerd // import "github.com/Prakhar-Agarwal-byte/moby/libcontainerd"
 
 import (
 	"context"
@@ -8,8 +8,8 @@ import (
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
 
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/libcontainerd/types"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/libcontainerd/types"
 )
 
 // ReplaceContainer creates a new container, replacing any existing container

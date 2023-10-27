@@ -11,10 +11,10 @@ import (
 	"time"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/daemon"
-	"github.com/docker/docker/testutil"
-	testdaemon "github.com/docker/docker/testutil/daemon"
+	"github.com/Prakhar-Agarwal-byte/moby/integration-cli/cli"
+	"github.com/Prakhar-Agarwal-byte/moby/integration-cli/daemon"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil"
+	testdaemon "github.com/Prakhar-Agarwal-byte/moby/testutil/daemon"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/icmd"
 )

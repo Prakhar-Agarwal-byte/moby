@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/container"
+package container // import "github.com/Prakhar-Agarwal-byte/moby/container"
 
 import (
 	"bytes"
@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/network"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/errdefs"
 	"github.com/docker/go-connections/nat"
 	memdb "github.com/hashicorp/go-memdb"
 )

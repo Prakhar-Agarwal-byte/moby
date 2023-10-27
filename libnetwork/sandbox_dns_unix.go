@@ -13,10 +13,10 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/etchosts"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/resolvconf"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/etchosts"
-	"github.com/docker/docker/libnetwork/resolvconf"
-	"github.com/docker/docker/libnetwork/types"
 )
 
 const (

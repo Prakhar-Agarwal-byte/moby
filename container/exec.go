@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/container"
+package container // import "github.com/Prakhar-Agarwal-byte/moby/container"
 
 import (
 	"context"
@@ -7,9 +7,9 @@ import (
 
 	"github.com/containerd/containerd/cio"
 	"github.com/containerd/log"
-	"github.com/docker/docker/container/stream"
-	"github.com/docker/docker/libcontainerd/types"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/Prakhar-Agarwal-byte/moby/container/stream"
+	"github.com/Prakhar-Agarwal-byte/moby/libcontainerd/types"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stringid"
 )
 
 // ExecConfig holds the configurations for execs. The Daemon keeps

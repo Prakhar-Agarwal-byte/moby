@@ -1,4 +1,4 @@
-package service // import "github.com/docker/docker/volume/service"
+package service // import "github.com/Prakhar-Agarwal-byte/moby/volume/service"
 
 import (
 	"context"
@@ -6,18 +6,18 @@ import (
 	"sync/atomic"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/api/types/filters"
-	volumetypes "github.com/docker/docker/api/types/volume"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/directory"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/volume"
-	"github.com/docker/docker/volume/drivers"
-	"github.com/docker/docker/volume/service/opts"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/events"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/filters"
+	volumetypes "github.com/Prakhar-Agarwal-byte/moby/api/types/volume"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/directory"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/idtools"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/plugingetter"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stringid"
+	"github.com/Prakhar-Agarwal-byte/moby/volume"
+	"github.com/Prakhar-Agarwal-byte/moby/volume/drivers"
+	"github.com/Prakhar-Agarwal-byte/moby/volume/service/opts"
 	"github.com/pkg/errors"
 )
 

@@ -1,4 +1,4 @@
-package layer // import "github.com/docker/docker/layer"
+package layer // import "github.com/Prakhar-Agarwal-byte/moby/layer"
 
 import (
 	"context"
@@ -11,10 +11,10 @@ import (
 
 	"github.com/containerd/log"
 	"github.com/docker/distribution"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/graphdriver"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/idtools"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/plugingetter"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stringid"
 	"github.com/moby/locker"
 	"github.com/opencontainers/go-digest"
 	"github.com/vbatts/tar-split/tar/asm"

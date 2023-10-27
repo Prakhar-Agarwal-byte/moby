@@ -5,11 +5,11 @@ import (
 	"strings"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/cluster"
-	"github.com/docker/docker/libnetwork/datastore"
-	"github.com/docker/docker/libnetwork/ipamutils"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/pkg/plugingetter"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/cluster"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/datastore"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipamutils"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/netlabel"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/plugingetter"
 )
 
 const (

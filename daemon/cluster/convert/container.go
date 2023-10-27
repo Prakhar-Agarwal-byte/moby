@@ -1,4 +1,4 @@
-package convert // import "github.com/docker/docker/daemon/cluster/convert"
+package convert // import "github.com/Prakhar-Agarwal-byte/moby/daemon/cluster/convert"
 
 import (
 	"context"
@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/types/container"
-	mounttypes "github.com/docker/docker/api/types/mount"
-	types "github.com/docker/docker/api/types/swarm"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	mounttypes "github.com/Prakhar-Agarwal-byte/moby/api/types/mount"
+	types "github.com/Prakhar-Agarwal-byte/moby/api/types/swarm"
 	"github.com/docker/go-units"
 	gogotypes "github.com/gogo/protobuf/types"
 	swarmapi "github.com/moby/swarmkit/v2/api"

@@ -1,6 +1,6 @@
 // Package fluentd provides the log driver for forwarding server logs
 // to fluentd endpoints.
-package fluentd // import "github.com/docker/docker/daemon/logger/fluentd"
+package fluentd // import "github.com/Prakhar-Agarwal-byte/moby/daemon/logger/fluentd"
 
 import (
 	"context"
@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/daemon/logger/loggerutils"
-	"github.com/docker/docker/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/logger"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/logger/loggerutils"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
 	units "github.com/docker/go-units"
 	"github.com/fluent/fluent-logger-golang/fluent"
 	"github.com/pkg/errors"

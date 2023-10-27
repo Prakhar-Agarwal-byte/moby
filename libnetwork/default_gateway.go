@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/netlabel"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
 )
 
 const (

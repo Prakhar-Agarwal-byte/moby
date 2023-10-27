@@ -1,11 +1,11 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/Prakhar-Agarwal-byte/moby/client"
 
 import (
 	"context"
 	"encoding/json"
 	"net/url"
 
-	"github.com/docker/docker/api/types/checkpoint"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/checkpoint"
 )
 
 // CheckpointList returns the checkpoints of the given container in the docker host

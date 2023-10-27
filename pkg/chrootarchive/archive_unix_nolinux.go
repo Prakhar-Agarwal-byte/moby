@@ -1,6 +1,6 @@
 //go:build unix && !linux
 
-package chrootarchive // import "github.com/docker/docker/pkg/chrootarchive"
+package chrootarchive // import "github.com/Prakhar-Agarwal-byte/moby/pkg/chrootarchive"
 
 import (
 	"bytes"
@@ -10,8 +10,8 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/reexec"
 	"github.com/pkg/errors"
 	"golang.org/x/sys/unix"
 )

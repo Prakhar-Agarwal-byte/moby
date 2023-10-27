@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/Prakhar-Agarwal-byte/moby/builder/dockerfile"
 
 import (
 	"context"
@@ -6,9 +6,9 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/docker/docker/builder/remotecontext"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/Prakhar-Agarwal-byte/moby/builder/remotecontext"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/reexec"
 	"github.com/moby/buildkit/frontend/dockerfile/instructions"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

@@ -1,4 +1,4 @@
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
 
 import (
 	"os"
@@ -14,9 +14,9 @@ import (
 	"time"
 
 	"github.com/Microsoft/hcsshim/osversion"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/parsers/kernel"
-	"github.com/docker/docker/pkg/system"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/idtools"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/parsers/kernel"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/system"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/skip"
 )
@@ -189,7 +189,7 @@ func TestChangesWithChanges(t *testing.T) {
 	checkChanges(expectedChanges, changes, t)
 }
 
-// See https://github.com/docker/docker/pull/13590
+// See https://github.com/Prakhar-Agarwal-byte/moby/pull/13590
 func TestChangesWithChangesGH13590(t *testing.T) {
 	// TODO Windows. Needs further investigation to identify the failure
 	if runtime.GOOS == "windows" {

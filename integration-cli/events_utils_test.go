@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
+	eventstestutils "github.com/Prakhar-Agarwal-byte/moby/daemon/events/testutils"
+	"github.com/Prakhar-Agarwal-byte/moby/integration-cli/cli"
 	"github.com/containerd/log"
-	eventstestutils "github.com/docker/docker/daemon/events/testutils"
-	"github.com/docker/docker/integration-cli/cli"
 	"gotest.tools/v3/assert"
 )
 

@@ -83,7 +83,7 @@ pipeline {
                                 '''
                                 sh '''
                                 docker run --rm -t --privileged \
-                                  -v "$WORKSPACE/bundles:/go/src/github.com/docker/docker/bundles" \
+                                  -v "$WORKSPACE/bundles:/go/src/github.com/Prakhar-Agarwal-byte/moby/bundles" \
                                   --name docker-pr$BUILD_NUMBER \
                                   -e DOCKER_EXPERIMENTAL \
                                   -e DOCKER_GITCOMMIT=${GIT_COMMIT} \
@@ -105,7 +105,7 @@ pipeline {
                             steps {
                                 sh '''
                                 docker run --rm -t --privileged \
-                                  -v "$WORKSPACE/bundles:/go/src/github.com/docker/docker/bundles" \
+                                  -v "$WORKSPACE/bundles:/go/src/github.com/Prakhar-Agarwal-byte/moby/bundles" \
                                   --name docker-pr$BUILD_NUMBER \
                                   -e DOCKER_EXPERIMENTAL \
                                   -e DOCKER_GITCOMMIT=${GIT_COMMIT} \

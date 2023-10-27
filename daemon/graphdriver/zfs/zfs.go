@@ -1,6 +1,6 @@
 //go:build linux || freebsd
 
-package zfs // import "github.com/docker/docker/daemon/graphdriver/zfs"
+package zfs // import "github.com/Prakhar-Agarwal-byte/moby/daemon/graphdriver/zfs"
 
 import (
 	"context"
@@ -13,10 +13,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/graphdriver"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/idtools"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/parsers"
 	"github.com/containerd/log"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/parsers"
 	zfs "github.com/mistifyio/go-zfs/v3"
 	"github.com/moby/locker"
 	"github.com/moby/sys/mount"

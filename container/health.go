@@ -1,11 +1,11 @@
-package container // import "github.com/docker/docker/container"
+package container // import "github.com/Prakhar-Agarwal-byte/moby/container"
 
 import (
 	"context"
 	"sync"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
 )
 
 // Health holds the current container health-check state

@@ -1,4 +1,4 @@
-package httputils // import "github.com/docker/docker/api/server/httputils"
+package httputils // import "github.com/Prakhar-Agarwal-byte/moby/api/server/httputils"
 
 import (
 	"net/http"

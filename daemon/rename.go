@@ -1,14 +1,14 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"context"
 	"strings"
 
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/events"
+	dockercontainer "github.com/Prakhar-Agarwal-byte/moby/container"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork"
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/types/events"
-	dockercontainer "github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/libnetwork"
 	"github.com/pkg/errors"
 )
 

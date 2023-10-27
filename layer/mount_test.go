@@ -1,4 +1,4 @@
-package layer // import "github.com/docker/docker/layer"
+package layer // import "github.com/Prakhar-Agarwal-byte/moby/layer"
 
 import (
 	"io"
@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/containerd/continuity/driver"
-	"github.com/docker/docker/pkg/archive"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
 )
 
 func TestMountInit(t *testing.T) {

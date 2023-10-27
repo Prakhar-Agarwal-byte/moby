@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/internal/testutils/netnsutils"
+	"github.com/Prakhar-Agarwal-byte/moby/internal/testutils/netnsutils"
 	"github.com/miekg/dns"
 	"github.com/sirupsen/logrus"
 	"gotest.tools/v3/assert"

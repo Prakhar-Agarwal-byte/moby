@@ -1,4 +1,4 @@
-package secret // import "github.com/docker/docker/integration/secret"
+package secret // import "github.com/Prakhar-Agarwal-byte/moby/integration/secret"
 
 import (
 	"bytes"
@@ -8,14 +8,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/integration/internal/swarm"
-	"github.com/docker/docker/pkg/stdcopy"
-	"github.com/docker/docker/testutil"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/filters"
+	swarmtypes "github.com/Prakhar-Agarwal-byte/moby/api/types/swarm"
+	"github.com/Prakhar-Agarwal-byte/moby/client"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/integration/internal/swarm"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stdcopy"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/poll"

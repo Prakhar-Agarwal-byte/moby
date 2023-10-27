@@ -1,12 +1,12 @@
 package libnetwork
 
 import (
-	"github.com/docker/docker/libnetwork/ipamapi"
-	builtinIpam "github.com/docker/docker/libnetwork/ipams/builtin"
-	nullIpam "github.com/docker/docker/libnetwork/ipams/null"
-	remoteIpam "github.com/docker/docker/libnetwork/ipams/remote"
-	"github.com/docker/docker/libnetwork/ipamutils"
-	"github.com/docker/docker/pkg/plugingetter"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipamapi"
+	builtinIpam "github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipams/builtin"
+	nullIpam "github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipams/null"
+	remoteIpam "github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipams/remote"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipamutils"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/plugingetter"
 )
 
 func initIPAMDrivers(r ipamapi.Registerer, pg plugingetter.PluginGetter, addressPool []*ipamutils.NetworkToSplit) error {

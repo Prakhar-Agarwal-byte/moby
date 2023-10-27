@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/filters"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/registry"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
 	"github.com/containerd/log"
 	"github.com/docker/distribution/registry/client/auth"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/errdefs"
 	"github.com/pkg/errors"
 )
 

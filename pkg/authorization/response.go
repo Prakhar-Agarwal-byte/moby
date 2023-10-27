@@ -1,4 +1,4 @@
-package authorization // import "github.com/docker/docker/pkg/authorization"
+package authorization // import "github.com/Prakhar-Agarwal-byte/moby/pkg/authorization"
 
 import (
 	"bufio"

@@ -1,11 +1,11 @@
 //go:build !linux && !freebsd && !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"errors"
 
-	"github.com/docker/docker/pkg/sysinfo"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/sysinfo"
 )
 
 func checkSystem() error {

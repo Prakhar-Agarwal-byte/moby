@@ -1,18 +1,18 @@
 //go:build !windows
 
-package macvlan // import "github.com/docker/docker/integration/network/macvlan"
+package macvlan // import "github.com/Prakhar-Agarwal-byte/moby/integration/network/macvlan"
 
 import (
 	"context"
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration/internal/container"
-	net "github.com/docker/docker/integration/internal/network"
-	n "github.com/docker/docker/integration/network"
-	"github.com/docker/docker/testutil"
-	"github.com/docker/docker/testutil/daemon"
+	"github.com/Prakhar-Agarwal-byte/moby/client"
+	"github.com/Prakhar-Agarwal-byte/moby/integration/internal/container"
+	net "github.com/Prakhar-Agarwal-byte/moby/integration/internal/network"
+	n "github.com/Prakhar-Agarwal-byte/moby/integration/network"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil/daemon"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/skip"
 )

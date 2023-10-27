@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/integration-cli/daemon"
-	testdaemon "github.com/docker/docker/testutil/daemon"
+	"github.com/Prakhar-Agarwal-byte/moby/integration-cli/daemon"
+	testdaemon "github.com/Prakhar-Agarwal-byte/moby/testutil/daemon"
 	"gotest.tools/v3/assert"
 )
 

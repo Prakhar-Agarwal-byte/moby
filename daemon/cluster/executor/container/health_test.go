@@ -1,17 +1,17 @@
 //go:build !windows
 
-package container // import "github.com/docker/docker/daemon/cluster/executor/container"
+package container // import "github.com/Prakhar-Agarwal-byte/moby/daemon/cluster/executor/container"
 
 import (
 	"context"
 	"testing"
 	"time"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	eventtypes "github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon"
-	"github.com/docker/docker/daemon/events"
+	containertypes "github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	eventtypes "github.com/Prakhar-Agarwal-byte/moby/api/types/events"
+	"github.com/Prakhar-Agarwal-byte/moby/container"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/events"
 	"github.com/moby/swarmkit/v2/api"
 )
 

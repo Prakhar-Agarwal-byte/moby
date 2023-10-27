@@ -1,4 +1,4 @@
-package plugins // import "github.com/docker/docker/pkg/plugins"
+package plugins // import "github.com/Prakhar-Agarwal-byte/moby/pkg/plugins"
 
 import (
 	"bytes"
@@ -9,9 +9,9 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/ioutils"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/plugins/transport"
 	"github.com/containerd/log"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/plugins/transport"
 	"github.com/docker/go-connections/sockets"
 	"github.com/docker/go-connections/tlsconfig"
 )

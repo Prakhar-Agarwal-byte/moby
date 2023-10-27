@@ -1,10 +1,10 @@
-package vfs // import "github.com/docker/docker/daemon/graphdriver/vfs"
+package vfs // import "github.com/Prakhar-Agarwal-byte/moby/daemon/graphdriver/vfs"
 
 import (
 	"context"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/quota"
+	"github.com/Prakhar-Agarwal-byte/moby/quota"
 )
 
 type driverQuota struct {

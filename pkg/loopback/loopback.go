@@ -4,7 +4,7 @@
 //
 // Deprecated: this package is deprecated and will be removed in the next release.
 
-package loopback // import "github.com/docker/docker/pkg/loopback"
+package loopback // import "github.com/Prakhar-Agarwal-byte/moby/pkg/loopback"
 
 import (
 	"context"

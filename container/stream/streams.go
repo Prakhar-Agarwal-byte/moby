@@ -1,4 +1,4 @@
-package stream // import "github.com/docker/docker/container/stream"
+package stream // import "github.com/Prakhar-Agarwal-byte/moby/container/stream"
 
 import (
 	"context"
@@ -9,9 +9,9 @@ import (
 
 	"github.com/containerd/containerd/cio"
 	"github.com/containerd/log"
-	"github.com/docker/docker/pkg/broadcaster"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/pools"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/broadcaster"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/ioutils"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/pools"
 )
 
 // Config holds information about I/O streams managed together.

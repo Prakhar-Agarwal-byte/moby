@@ -1,4 +1,4 @@
-package dockerversion // import "github.com/docker/docker/dockerversion"
+package dockerversion // import "github.com/Prakhar-Agarwal-byte/moby/dockerversion"
 
 // Default build-time variable for library-import.
 // These variables are overridden on build with build-time information.

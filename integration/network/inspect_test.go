@@ -1,12 +1,12 @@
-package network // import "github.com/docker/docker/integration/network"
+package network // import "github.com/Prakhar-Agarwal-byte/moby/integration/network"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration/internal/network"
-	"github.com/docker/docker/integration/internal/swarm"
-	"github.com/docker/docker/testutil"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/integration/internal/network"
+	"github.com/Prakhar-Agarwal-byte/moby/integration/internal/swarm"
+	"github.com/Prakhar-Agarwal-byte/moby/testutil"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/poll"
 	"gotest.tools/v3/skip"

@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/docker/docker/client"
+	"github.com/Prakhar-Agarwal-byte/moby/client"
 	bkclient "github.com/moby/buildkit/client"
 )
 

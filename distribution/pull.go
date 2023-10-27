@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/Prakhar-Agarwal-byte/moby/distribution"
 
 import (
 	"context"
@@ -6,9 +6,9 @@ import (
 
 	"github.com/containerd/log"
 	"github.com/distribution/reference"
-	"github.com/docker/docker/api"
-	"github.com/docker/docker/api/types/events"
-	refstore "github.com/docker/docker/reference"
+	"github.com/Prakhar-Agarwal-byte/moby/api"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/events"
+	refstore "github.com/Prakhar-Agarwal-byte/moby/reference"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 )

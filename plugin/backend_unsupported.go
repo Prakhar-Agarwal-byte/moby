@@ -1,6 +1,6 @@
 //go:build !linux
 
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/Prakhar-Agarwal-byte/moby/plugin"
 
 import (
 	"context"
@@ -8,10 +8,10 @@ import (
 	"io"
 	"net/http"
 
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/filters"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/registry"
 	"github.com/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/registry"
 )
 
 var errNotSupported = errors.New("plugins are not supported on this platform")

@@ -2,4 +2,4 @@
 
 package main
 
-import _ "github.com/docker/docker/cli/winresources/docker-proxy"
+import _ "github.com/Prakhar-Agarwal-byte/moby/cli/winresources/docker-proxy"

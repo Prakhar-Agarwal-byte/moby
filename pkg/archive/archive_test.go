@@ -1,4 +1,4 @@
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
 
 import (
 	"archive/tar"
@@ -18,8 +18,8 @@ import (
 	"time"
 
 	"github.com/containerd/containerd/pkg/userns"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/idtools"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/ioutils"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/skip"
@@ -397,7 +397,7 @@ func TestUntarPathWithDestinationFile(t *testing.T) {
 
 // Do the same test as above but with the destination folder already exists
 // and the destination file is a directory
-// It's working, see https://github.com/docker/docker/issues/10040
+// It's working, see https://github.com/Prakhar-Agarwal-byte/moby/issues/10040
 func TestUntarPathWithDestinationSrcFileAsFolder(t *testing.T) {
 	tmpFolder, err := os.MkdirTemp("", "docker-archive-test")
 	if err != nil {

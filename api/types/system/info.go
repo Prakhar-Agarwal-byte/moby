@@ -1,9 +1,9 @@
 package system
 
 import (
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/registry"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/swarm"
 )
 
 // Info contains response of Engine API:

@@ -3,7 +3,7 @@
 package builtin
 
 import (
-	"github.com/docker/docker/libnetwork/ipamapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipamapi"
 )
 
 // Register registers the built-in ipam service with libnetwork.

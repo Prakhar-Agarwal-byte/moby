@@ -1,10 +1,10 @@
 //go:build !windows
 
-package runconfig // import "github.com/docker/docker/runconfig"
+package runconfig // import "github.com/Prakhar-Agarwal-byte/moby/runconfig"
 
 import (
-	"github.com/docker/docker/api/types/container"
-	networktypes "github.com/docker/docker/api/types/network"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	networktypes "github.com/Prakhar-Agarwal-byte/moby/api/types/network"
 )
 
 // ContainerConfigWrapper is a Config wrapper that holds the container Config (portable)

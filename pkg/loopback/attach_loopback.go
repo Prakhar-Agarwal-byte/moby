@@ -1,6 +1,6 @@
 //go:build linux
 
-package loopback // import "github.com/docker/docker/pkg/loopback"
+package loopback // import "github.com/Prakhar-Agarwal-byte/moby/pkg/loopback"
 
 import (
 	"context"

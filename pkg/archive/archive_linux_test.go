@@ -1,4 +1,4 @@
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
 
 import (
 	"archive/tar"
@@ -9,8 +9,8 @@ import (
 	"syscall"
 	"testing"
 
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/system"
 	"github.com/containerd/containerd/pkg/userns"
-	"github.com/docker/docker/pkg/system"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"golang.org/x/sys/unix"
 	"gotest.tools/v3/assert"

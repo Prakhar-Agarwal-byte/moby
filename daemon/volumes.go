@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/Prakhar-Agarwal-byte/moby/daemon"
 
 import (
 	"context"
@@ -8,16 +8,16 @@ import (
 	"time"
 
 	"github.com/containerd/log"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/mount"
-	mounttypes "github.com/docker/docker/api/types/mount"
-	volumetypes "github.com/docker/docker/api/types/volume"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/volume"
-	volumemounts "github.com/docker/docker/volume/mounts"
-	"github.com/docker/docker/volume/service"
-	volumeopts "github.com/docker/docker/volume/service/opts"
+	containertypes "github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/mount"
+	mounttypes "github.com/Prakhar-Agarwal-byte/moby/api/types/mount"
+	volumetypes "github.com/Prakhar-Agarwal-byte/moby/api/types/volume"
+	"github.com/Prakhar-Agarwal-byte/moby/container"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/volume"
+	volumemounts "github.com/Prakhar-Agarwal-byte/moby/volume/mounts"
+	"github.com/Prakhar-Agarwal-byte/moby/volume/service"
+	volumeopts "github.com/Prakhar-Agarwal-byte/moby/volume/service/opts"
 	"github.com/pkg/errors"
 )
 

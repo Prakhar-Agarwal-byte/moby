@@ -3,8 +3,8 @@ package images
 import (
 	"context"
 
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
+	"github.com/Prakhar-Agarwal-byte/moby/image"
+	"github.com/Prakhar-Agarwal-byte/moby/layer"
 	"github.com/pkg/errors"
 )
 

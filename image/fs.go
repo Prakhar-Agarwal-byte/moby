@@ -1,4 +1,4 @@
-package image // import "github.com/docker/docker/image"
+package image // import "github.com/Prakhar-Agarwal-byte/moby/image"
 
 import (
 	"context"
@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"sync"
 
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/ioutils"
 	"github.com/containerd/log"
-	"github.com/docker/docker/pkg/ioutils"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 )

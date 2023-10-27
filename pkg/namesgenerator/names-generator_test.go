@@ -1,4 +1,4 @@
-package namesgenerator // import "github.com/docker/docker/pkg/namesgenerator"
+package namesgenerator // import "github.com/Prakhar-Agarwal-byte/moby/pkg/namesgenerator"
 
 import (
 	"strings"

@@ -1,4 +1,4 @@
-package httputils // import "github.com/docker/docker/api/server/httputils"
+package httputils // import "github.com/Prakhar-Agarwal-byte/moby/api/server/httputils"
 
 import (
 	"context"
@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/docker/docker/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
 	"github.com/pkg/errors"
 )
 

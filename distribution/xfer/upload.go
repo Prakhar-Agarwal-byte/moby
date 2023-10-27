@@ -1,4 +1,4 @@
-package xfer // import "github.com/docker/docker/distribution/xfer"
+package xfer // import "github.com/Prakhar-Agarwal-byte/moby/distribution/xfer"
 
 import (
 	"context"
@@ -7,8 +7,8 @@ import (
 
 	"github.com/containerd/log"
 	"github.com/docker/distribution"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/progress"
+	"github.com/Prakhar-Agarwal-byte/moby/layer"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/progress"
 )
 
 const maxUploadAttempts = 5

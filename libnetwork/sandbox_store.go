@@ -7,9 +7,9 @@ import (
 	"sync"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/datastore"
-	"github.com/docker/docker/libnetwork/osl"
-	"github.com/docker/docker/libnetwork/scope"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/datastore"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/osl"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/scope"
 )
 
 const (

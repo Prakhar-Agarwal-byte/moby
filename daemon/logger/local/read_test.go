@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/docker/daemon/logger"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/logger"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/assert"
 )

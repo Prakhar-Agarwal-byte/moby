@@ -1,4 +1,4 @@
-package fluentd // import "github.com/docker/docker/daemon/logger/fluentd"
+package fluentd // import "github.com/Prakhar-Agarwal-byte/moby/daemon/logger/fluentd"
 import (
 	"testing"
 

@@ -1,13 +1,13 @@
-package cache // import "github.com/docker/docker/daemon/logger/loggerutils/cache"
+package cache // import "github.com/Prakhar-Agarwal-byte/moby/daemon/logger/loggerutils/cache"
 
 import (
 	"context"
 	"strconv"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/daemon/logger/local"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/container"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/logger"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/logger/local"
 	units "github.com/docker/go-units"
 	"github.com/pkg/errors"
 )

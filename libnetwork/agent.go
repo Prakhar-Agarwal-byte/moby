@@ -1,6 +1,6 @@
 package libnetwork
 
-//go:generate protoc -I=. -I=../vendor/ --gogofaster_out=import_path=github.com/docker/docker/libnetwork:. agent.proto
+//go:generate protoc -I=. -I=../vendor/ --gogofaster_out=import_path=github.com/Prakhar-Agarwal-byte/moby/libnetwork:. agent.proto
 
 import (
 	"context"
@@ -11,12 +11,12 @@ import (
 	"sync"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/cluster"
-	"github.com/docker/docker/libnetwork/discoverapi"
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/networkdb"
-	"github.com/docker/docker/libnetwork/scope"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/cluster"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/discoverapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/driverapi"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/networkdb"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/scope"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
 	"github.com/docker/go-events"
 	"github.com/gogo/protobuf/proto"
 )

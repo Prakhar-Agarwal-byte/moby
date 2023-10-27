@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/pkg/archive"
+	"github.com/Prakhar-Agarwal-byte/moby/container"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
 )
 
 func (i *ImageService) Changes(ctx context.Context, container *container.Container) ([]archive.Change, error) {

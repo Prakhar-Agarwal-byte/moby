@@ -1,6 +1,6 @@
 package main
 
-import "github.com/docker/docker/daemon/config"
+import "github.com/Prakhar-Agarwal-byte/moby/daemon/config"
 
 // preNotifyReady sends a message to the host when the API is active, but before the daemon is
 func preNotifyReady() {

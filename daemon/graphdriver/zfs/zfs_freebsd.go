@@ -1,10 +1,10 @@
-package zfs // import "github.com/docker/docker/daemon/graphdriver/zfs"
+package zfs // import "github.com/Prakhar-Agarwal-byte/moby/daemon/graphdriver/zfs"
 
 import (
 	"strings"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/daemon/graphdriver"
+	"github.com/Prakhar-Agarwal-byte/moby/daemon/graphdriver"
 	"golang.org/x/sys/unix"
 )
 

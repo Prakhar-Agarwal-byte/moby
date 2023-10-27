@@ -4,7 +4,7 @@ package ipamapi
 import (
 	"net"
 
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
 )
 
 // IPAM plugin types

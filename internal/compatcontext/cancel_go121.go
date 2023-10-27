@@ -1,6 +1,6 @@
 //go:build go1.21
 
-package compatcontext // import "github.com/docker/docker/internal/compatcontext"
+package compatcontext // import "github.com/Prakhar-Agarwal-byte/moby/internal/compatcontext"
 
 import "context"
 

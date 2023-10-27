@@ -1,11 +1,11 @@
-package network // import "github.com/docker/docker/api/server/router/network"
+package network // import "github.com/Prakhar-Agarwal-byte/moby/api/server/router/network"
 
 import (
 	"context"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/network"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/filters"
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/network"
 )
 
 // Backend is all the methods that need to be implemented

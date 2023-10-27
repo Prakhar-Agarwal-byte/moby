@@ -3,11 +3,11 @@ package containerd
 import (
 	"context"
 
+	"github.com/Prakhar-Agarwal-byte/moby/container"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stringid"
 	"github.com/containerd/containerd/mount"
 	"github.com/containerd/log"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/stringid"
 )
 
 func (i *ImageService) Changes(ctx context.Context, container *container.Container) ([]archive.Change, error) {

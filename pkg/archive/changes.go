@@ -1,4 +1,4 @@
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
 
 import (
 	"archive/tar"
@@ -14,9 +14,9 @@ import (
 	"time"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/pools"
-	"github.com/docker/docker/pkg/system"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/idtools"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/pools"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/system"
 )
 
 // ChangeType represents the change type.
@@ -187,7 +187,7 @@ func changes(layers []string, rw string, dc deleteChange, sc skipChange) ([]Chan
 		// If /foo/bar/file.txt is modified, then /foo/bar must be part of the changed files.
 		// This block is here to ensure the change is recorded even if the
 		// modify time, mode and size of the parent directory in the rw and ro layers are all equal.
-		// Check https://github.com/docker/docker/pull/13590 for details.
+		// Check https://github.com/Prakhar-Agarwal-byte/moby/pull/13590 for details.
 		if f.IsDir() {
 			changedDirs[path] = struct{}{}
 		}

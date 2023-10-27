@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/docker/docker/libnetwork"
-	"github.com/docker/docker/libnetwork/config"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/options"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/config"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/netlabel"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/options"
 )
 
 func main() {

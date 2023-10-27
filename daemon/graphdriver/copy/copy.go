@@ -1,6 +1,6 @@
 //go:build linux
 
-package copy // import "github.com/docker/docker/daemon/graphdriver/copy"
+package copy // import "github.com/Prakhar-Agarwal-byte/moby/daemon/graphdriver/copy"
 
 import (
 	"container/list"
@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/containerd/containerd/pkg/userns"
-	"github.com/docker/docker/pkg/pools"
-	"github.com/docker/docker/pkg/system"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/pools"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/system"
 	"golang.org/x/sys/unix"
 )
 

@@ -1,4 +1,4 @@
-package config // import "github.com/docker/docker/daemon/config"
+package config // import "github.com/Prakhar-Agarwal-byte/moby/daemon/config"
 
 import (
 	"os"
@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/libnetwork/ipamutils"
-	"github.com/docker/docker/opts"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/ipamutils"
+	"github.com/Prakhar-Agarwal-byte/moby/opts"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/imdario/mergo"

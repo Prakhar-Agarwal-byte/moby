@@ -1,4 +1,4 @@
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "github.com/Prakhar-Agarwal-byte/moby/pkg/archive"
 
 import (
 	"archive/tar"
@@ -11,8 +11,8 @@ import (
 	"strings"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/pkg/pools"
-	"github.com/docker/docker/pkg/system"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/pools"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/system"
 )
 
 // UnpackLayer unpack `layer` to a `dest`. The stream `layer` can be

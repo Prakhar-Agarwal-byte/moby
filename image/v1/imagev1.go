@@ -1,15 +1,15 @@
-package v1 // import "github.com/docker/docker/image/v1"
+package v1 // import "github.com/Prakhar-Agarwal-byte/moby/image/v1"
 
 import (
 	"context"
 	"encoding/json"
 	"strings"
 
+	"github.com/Prakhar-Agarwal-byte/moby/api/types/versions"
+	"github.com/Prakhar-Agarwal-byte/moby/image"
+	"github.com/Prakhar-Agarwal-byte/moby/layer"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stringid"
 	"github.com/containerd/log"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/stringid"
 	"github.com/opencontainers/go-digest"
 )
 

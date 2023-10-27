@@ -1,4 +1,4 @@
-package utils // import "github.com/docker/docker/distribution/utils"
+package utils // import "github.com/Prakhar-Agarwal-byte/moby/distribution/utils"
 
 import (
 	"context"
@@ -8,8 +8,8 @@ import (
 	"syscall"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/pkg/progress"
-	"github.com/docker/docker/pkg/streamformatter"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/progress"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/streamformatter"
 )
 
 // WriteDistributionProgress is a helper for writing progress from chan to JSON

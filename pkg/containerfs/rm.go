@@ -1,6 +1,6 @@
 //go:build !darwin && !windows
 
-package containerfs // import "github.com/docker/docker/pkg/containerfs"
+package containerfs // import "github.com/Prakhar-Agarwal-byte/moby/pkg/containerfs"
 
 import (
 	"os"

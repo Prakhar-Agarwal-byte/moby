@@ -1,4 +1,4 @@
-package mounts // import "github.com/docker/docker/volume/mounts"
+package mounts // import "github.com/Prakhar-Agarwal-byte/moby/volume/mounts"
 
 import (
 	"context"
@@ -8,10 +8,10 @@ import (
 	"syscall"
 
 	"github.com/containerd/log"
-	mounttypes "github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/volume"
+	mounttypes "github.com/Prakhar-Agarwal-byte/moby/api/types/mount"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/idtools"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stringid"
+	"github.com/Prakhar-Agarwal-byte/moby/volume"
 	"github.com/opencontainers/selinux/go-selinux/label"
 	"github.com/pkg/errors"
 )
@@ -36,7 +36,7 @@ type MountPoint struct {
 	Name string
 	// Driver is the volume driver used to create the volume (if it is a volume)
 	Driver string
-	// Type of mount to use, see `Type<foo>` definitions in github.com/docker/docker/api/types/mount
+	// Type of mount to use, see `Type<foo>` definitions in github.com/Prakhar-Agarwal-byte/moby/api/types/mount
 	Type mounttypes.Type `json:",omitempty"`
 	// Volume is the volume providing data to this mountpoint.
 	// This is nil unless `Type` is set to `TypeVolume`

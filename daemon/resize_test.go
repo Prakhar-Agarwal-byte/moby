@@ -6,8 +6,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/libcontainerd/types"
+	"github.com/Prakhar-Agarwal-byte/moby/container"
+	"github.com/Prakhar-Agarwal-byte/moby/libcontainerd/types"
 	"gotest.tools/v3/assert"
 )
 

@@ -1,4 +1,4 @@
-package types // import "github.com/docker/docker/api/types"
+package types // import "github.com/Prakhar-Agarwal-byte/moby/api/types"
 
 import (
 	"encoding/json"

@@ -1,4 +1,4 @@
-package authorization // import "github.com/docker/docker/pkg/authorization"
+package authorization // import "github.com/Prakhar-Agarwal-byte/moby/pkg/authorization"
 
 import (
 	"bufio"
@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/ioutils"
 )
 
 const maxBodySize = 1048576 // 1MB

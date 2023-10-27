@@ -1,12 +1,12 @@
-package build // import "github.com/docker/docker/api/server/backend/build"
+package build // import "github.com/Prakhar-Agarwal-byte/moby/api/server/backend/build"
 
 import (
 	"context"
 	"fmt"
 	"io"
 
+	"github.com/Prakhar-Agarwal-byte/moby/image"
 	"github.com/distribution/reference"
-	"github.com/docker/docker/image"
 	"github.com/pkg/errors"
 )
 

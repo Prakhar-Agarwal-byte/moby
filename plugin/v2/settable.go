@@ -1,4 +1,4 @@
-package v2 // import "github.com/docker/docker/plugin/v2"
+package v2 // import "github.com/Prakhar-Agarwal-byte/moby/plugin/v2"
 
 import (
 	"errors"

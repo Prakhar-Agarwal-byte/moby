@@ -1,11 +1,11 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/Prakhar-Agarwal-byte/moby/builder/dockerfile"
 
 import (
 	"fmt"
 	"io"
 	"sort"
 
-	"github.com/docker/docker/runconfig/opts"
+	"github.com/Prakhar-Agarwal-byte/moby/runconfig/opts"
 )
 
 // builtinAllowedBuildArgs is list of built-in allowed build args

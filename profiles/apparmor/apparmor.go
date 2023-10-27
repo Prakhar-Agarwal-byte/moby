@@ -1,6 +1,6 @@
 //go:build linux
 
-package apparmor // import "github.com/docker/docker/profiles/apparmor"
+package apparmor // import "github.com/Prakhar-Agarwal-byte/moby/profiles/apparmor"
 
 import (
 	"bufio"
@@ -10,7 +10,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/docker/docker/pkg/aaparser"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/aaparser"
 )
 
 // profileDirectory is the file store for apparmor profiles and macros.

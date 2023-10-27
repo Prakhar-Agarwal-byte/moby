@@ -8,12 +8,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/errdefs"
+	"github.com/Prakhar-Agarwal-byte/moby/errdefs"
 	"github.com/ishidawataru/sctp"
 )
 
 // constants for the IP address type
-// Deprecated: use the consts defined in github.com/docker/docker/libnetwork/resolvconf
+// Deprecated: use the consts defined in github.com/Prakhar-Agarwal-byte/moby/libnetwork/resolvconf
 const (
 	IP = iota // IPv4 and IPv6
 	IPv4

@@ -1,6 +1,6 @@
 package networkdb
 
-//go:generate protoc -I=. -I=../../vendor/ --gogofaster_out=import_path=github.com/docker/docker/libnetwork/networkdb:. networkdb.proto
+//go:generate protoc -I=. -I=../../vendor/ --gogofaster_out=import_path=github.com/Prakhar-Agarwal-byte/moby/libnetwork/networkdb:. networkdb.proto
 
 import (
 	"context"
@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/containerd/log"
-	"github.com/docker/docker/libnetwork/types"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/Prakhar-Agarwal-byte/moby/libnetwork/types"
+	"github.com/Prakhar-Agarwal-byte/moby/pkg/stringid"
 	"github.com/docker/go-events"
 	iradix "github.com/hashicorp/go-immutable-radix"
 	"github.com/hashicorp/memberlist"

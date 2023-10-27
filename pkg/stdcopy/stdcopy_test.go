@@ -1,4 +1,4 @@
-package stdcopy // import "github.com/docker/docker/pkg/stdcopy"
+package stdcopy // import "github.com/Prakhar-Agarwal-byte/moby/pkg/stdcopy"
 
 import (
 	"bytes"
