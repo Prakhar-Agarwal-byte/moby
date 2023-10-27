@@ -11,7 +11,6 @@ import (
 	"github.com/Prakhar-Agarwal-byte/moby/opts"
 	"github.com/Prakhar-Agarwal-byte/moby/pkg/homedir"
 	"github.com/Prakhar-Agarwal-byte/moby/pkg/rootless"
-	"github.com/containerd/cgroups/v3"
 	units "github.com/docker/go-units"
 	"github.com/pkg/errors"
 )

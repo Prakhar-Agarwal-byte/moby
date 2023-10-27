@@ -11,7 +11,6 @@ import (
 	distref "github.com/distribution/reference"
 	"github.com/moby/buildkit/exporter"
 	"github.com/moby/buildkit/exporter/containerimage/exptypes"
-	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 )
 

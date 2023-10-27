@@ -1,4 +1,4 @@
-//go:build !freebsd && !windows
+//go:build !freebsd && !windows && !wasip1
 
 package system // import "github.com/Prakhar-Agarwal-byte/moby/pkg/system"
 

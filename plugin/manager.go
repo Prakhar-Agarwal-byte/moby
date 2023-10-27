@@ -24,7 +24,6 @@ import (
 	"github.com/containerd/containerd/content/local"
 	"github.com/containerd/log"
 	"github.com/moby/pubsub"
-	"github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
