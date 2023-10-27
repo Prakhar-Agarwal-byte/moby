@@ -1,3 +1,5 @@
+//go:build !wasip1
+
 package archive // import "github.com/docker/docker/pkg/archive"
 
 import (
